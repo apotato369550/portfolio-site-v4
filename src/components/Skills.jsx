@@ -8,7 +8,7 @@ export default function Skills() {
         {skillsData.map((group, i) => (
           <div key={i} className="skill-group fade-in">
             <h3>{group.label}</h3>
-            <p className="skill-desc">{group.description}</p>
+            <p className="skill-desc" dangerouslySetInnerHTML={{ __html: group.description }} />
             {group.icons && (
               <div className="skill-icons">
                 {group.icons.map((cls, j) => (
