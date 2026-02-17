@@ -1,0 +1,302 @@
+cv:
+  name: John Andre S. Yap
+  location: Cebu City, Cebu, Philippines
+  email: johnandresyap510@gmail.com
+  phone: +63 915 044 3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: LinkedIn
+      username: John Andre Yap
+    - network: GitHub
+      username: apotato369550
+  sections:
+    mission_statement:
+      - 'Purposeful and intentional computer science student with a passion for systems-based thinking and continuous learning. Committed to being calm, disciplined, organized, and consistent in all endeavors. Philosophy: make progress every day while maintaining balance. Known for the ability to "squeeze water out of stone" when it comes to time management and efficient project execution.'
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        date:
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        summary: Currently a 1st year student pursuing Bachelor of Science in Computer Science
+        highlights:
+          - 'DOST-SEI Merit Scholar (as of Jan 2024)'
+          - 'DataCamp Scholar (as of Jan 2025)'
+          - 'Graduated Senior High School with High Honors at USC North Campus'
+          - 'Earned Carolinian Academic Distinction (CAD) award in all semesters of Grade 11 and 12'
+          - 'Earned "Best in IT Programming Fundamentals" in Grade 10'
+          - 'Second Place at USC SHS-STEM 4th Research Congress (May 12, 2023)'
+    experience:
+      - company: Cebu Best Value Trading (CBVT)
+        position: Secretary & Web Developer
+        date:
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        summary: Working under grandfather's company, handling administrative duties and developing company website
+        highlights:
+          - 'Managing administrative tasks and documentation for family trading business'
+          - 'Currently developing and building company website using modern web technologies'
+          - 'Applying systems-based thinking to improve business processes and workflows'
+    projects:
+      - name: '[Fake News Detection App](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-01
+        end_date: 2024-06
+        location:
+        summary: Machine learning application utilizing web scraping and sentiment analysis to detect fake news
+        highlights:
+          - 'Built using TensorFlow for deep learning model implementation'
+          - 'Integrated web scraper to collect real-time news data for analysis'
+          - 'Implemented sentiment analysis algorithms to classify news authenticity'
+          - 'Lipsum: Add specific accuracy metrics and dataset size used for training'
+      - name: '[TaskMate - Complete Todo List](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-03
+        end_date: 2024-08
+        location:
+        summary: Full-stack web application built with FERN stack (Firebase, Express, React, Node.js)
+        highlights:
+          - 'Developed complete CRUD functionality for task management'
+          - 'Implemented real-time synchronization using Firebase'
+          - 'Built responsive UI with React and modern CSS practices'
+          - 'Lipsum: Add user count and specific features implemented'
+      - name: '[Minecraft Zombie Apocalypse Plugin](https://github.com/apotato369550)'
+        date:
+        start_date: 2023-06
+        end_date: 2023-12
+        location:
+        summary: Java-based Minecraft server plugin creating immersive zombie survival gameplay
+        highlights:
+          - 'Developed custom game mechanics and survival systems'
+          - 'Implemented event-driven programming for multiplayer interactions'
+          - 'Lipsum: Add download count and server compatibility details'
+      - name: '[Amazon Reviews Sentiment Analyzer](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-09
+        end_date: present
+        location:
+        summary: Machine learning project analyzing customer sentiment from Amazon product reviews
+        highlights:
+          - 'Utilized both TensorFlow and Scikit-learn for model comparison'
+          - 'Implemented natural language processing techniques for text analysis'
+          - 'Lipsum: Add accuracy scores and dataset size processed'
+      - name: '[Algorithm Visualizer](https://github.com/apotato369550)'
+        date: 2024
+        start_date:
+        end_date:
+        location:
+        summary: Python-based educational tool for visualizing sorting and search algorithms
+        highlights:
+          - 'Created interactive visualizations for common algorithms'
+          - 'Implemented multiple sorting algorithms with step-by-step visualization'
+          - 'Lipsum: Add specific algorithms covered and user interface details'
+      - name: '[Chat Application](https://github.com/apotato369550)'
+        date: 2024
+        start_date:
+        end_date:
+        location:
+        summary: Real-time messaging application built with Python
+        highlights:
+          - 'Implemented socket programming for real-time communication'
+          - 'Built user authentication and message history features'
+          - 'Lipsum: Add concurrent user capacity and deployment details'
+      - name: '[TSP Heuristic Research](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-10
+        end_date: present
+        location:
+        summary: Ongoing research project developing heuristic algorithms for Traveling Salesman Problem
+        highlights:
+          - 'Researching and implementing various optimization techniques'
+          - 'Comparing performance of different heuristic approaches'
+          - 'Lipsum: Add preliminary results and algorithm efficiency metrics'
+      - name: '[Personal Portfolio Website](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-11
+        end_date: present
+        location:
+        summary: Personal portfolio website showcasing projects and skills (in development)
+        highlights:
+          - 'Designed responsive and modern user interface'
+          - 'Integrated project showcase with live demos'
+          - 'Lipsum: Add technologies used and deployment platform'
+    skills:
+      - label: Data Science & Machine Learning
+        details: 'Python (Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib, Seaborn), SQL for data analysis and model development'
+      - label: Web Development
+        details: 'HTML, CSS, JavaScript, Node.js, MongoDB, Firebase, PHP, Laravel, SQL for full-stack web applications'
+      - label: Applications Development
+        details: 'C, Java for desktop and system programming'
+      - label: Tools & Technologies
+        details: 'Git, GitHub, Figma, Google Suite, Canva, Microsoft Excel, Microsoft Word'
+      - label: Programming Achievements
+        details: 'LeetCode: 90+ problems solved, HackerRank: 5-star Problem Solving badge'
+      - label: Languages
+        details: 'Filipino (native), English (fluent), Bisaya (native)'
+    certifications:
+      - bullet: 'DataCamp Associate Python Certificate - Comprehensive certification covering data manipulation, analysis, and machine learning'
+      - bullet: 'SoloLearn JavaScript Certificate - Web development and programming fundamentals'
+      - bullet: 'SoloLearn Java Certificate - Object-oriented programming and application development'
+      - bullet: 'HackerRank 5-Star Problem Solving Badge - Advanced algorithmic problem-solving skills'
+    extracurricular_activities:
+      - bullet: 'Active GitHub contributor with consistent daily contributions and multiple public repositories'
+      - bullet: 'Fitness enthusiast: Running, Boxing/Muay Thai/Martial Arts, and Weightlifting for physical and mental discipline'
+      - bullet: 'Avid reader and journal writer, practicing reflective thinking and continuous self-improvement'
+      - bullet: 'Blog writing to share knowledge and document learning journey'
+      - bullet: 'Systems-based thinking approach to personal and professional projects'
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 30pt
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: New Computer Modern
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: New Computer Modern
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    nested_bullet: '-'
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        *COMPANY*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-06-25'
+  bold_keywords: []

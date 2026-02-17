@@ -1,0 +1,108 @@
+Last updated in June 2025
+John Andre S. Yap
+ Cebu City, Cebu, Philippines  johnandresyap510@gmail.com  0915 044 3019
+ github.com/apotato369550  John Andre Yap  apotato369550
+Mission Statement
+Purposeful and intentional computer science student with a passion for systems-based thinking and continuous
+learning. Committed to being calm, disciplined, organized, and consistent in all endeavors. Philosophy: make
+progress every day while maintaining balance. Known for the ability to "squeeze water out of stone" when it
+comes to time management and efficient project execution.
+Education
+University of San Carlos
+BS in Computer Science
+Cebu City, Philippines
+Sept 2023 – June 2027
+Currently a 1st year student pursuing Bachelor of Science in Computer Science
+◦ DOST-SEI Merit Scholar (as of Jan 2024)
+◦ DataCamp Scholar (as of Jan 2025)
+◦ Graduated Senior High School with High Honors at USC North Campus
+◦ Earned Carolinian Academic Distinction (CAD) award in all semesters of Grade 11 and 12
+◦ Earned "Best in IT Programming Fundamentals" in Grade 10
+◦ Second Place at USC SHS-STEM 4th Research Congress (May 12, 2023)
+Experience
+Secretary & Web Developer
+Cebu Best Value Trading (CBVT)
+Cebu City, Philippines
+Jan 2024 – present
+Working under grandfather’s company, handling administrative duties and developing company website
+◦ Managing administrative tasks and documentation for family trading business
+◦ Currently developing and building company website using modern web technologies
+◦ Applying systems-based thinking to improve business processes and workflows
+Projects
+Fake News Detection App 
+Jan 2024 – June 2024
+Machine learning application utilizing web scraping and sentiment analysis to detect fake news
+◦ Built using TensorFlow for deep learning model implementation
+◦ Integrated web scraper to collect real-time news data for analysis
+◦ Implemented sentiment analysis algorithms to classify news authenticity
+◦ Lipsum: Add specific accuracy metrics and dataset size used for training
+TaskMate - Complete Todo List 
+Mar 2024 – Aug 2024
+Full-stack web application built with FERN stack (Firebase, Express, React, Node.js)
+◦ Developed complete CRUD functionality for task management
+◦ Implemented real-time synchronization using Firebase
+◦ Built responsive UI with React and modern CSS practices
+◦ Lipsum: Add user count and specific features implemented
+Minecraft Zombie Apocalypse Plugin 
+June 2023 – Dec 2023
+Java-based Minecraft server plugin creating immersive zombie survival gameplay
+◦ Developed custom game mechanics and survival systems
+John Andre S. Yap - Page 1 of 3
+
+◦ Implemented event-driven programming for multiplayer interactions
+◦ Lipsum: Add download count and server compatibility details
+Amazon Reviews Sentiment Analyzer 
+Sept 2024 – present
+Machine learning project analyzing customer sentiment from Amazon product reviews
+◦ Utilized both TensorFlow and Scikit-learn for model comparison
+◦ Implemented natural language processing techniques for text analysis
+◦ Lipsum: Add accuracy scores and dataset size processed
+Algorithm Visualizer 
+2024
+Python-based educational tool for visualizing sorting and search algorithms
+◦ Created interactive visualizations for common algorithms
+◦ Implemented multiple sorting algorithms with step-by-step visualization
+◦ Lipsum: Add specific algorithms covered and user interface details
+Chat Application 
+2024
+Real-time messaging application built with Python
+◦ Implemented socket programming for real-time communication
+◦ Built user authentication and message history features
+◦ Lipsum: Add concurrent user capacity and deployment details
+TSP Heuristic Research 
+Oct 2024 – present
+Ongoing research project developing heuristic algorithms for Traveling Salesman Problem
+◦ Researching and implementing various optimization techniques
+◦ Comparing performance of different heuristic approaches
+◦ Lipsum: Add preliminary results and algorithm efficiency metrics
+Personal Portfolio Website 
+Nov 2024 – present
+Personal portfolio website showcasing projects and skills (in development)
+◦ Designed responsive and modern user interface
+◦ Integrated project showcase with live demos
+◦ Lipsum: Add technologies used and deployment platform
+Skills
+Data Science & Machine Learning: Python (Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib,
+Seaborn), SQL for data analysis and model development
+Web Development: HTML, CSS, JavaScript, Node.js, MongoDB, Firebase, PHP, Laravel, SQL for full-stack
+web applications
+Applications Development: C, Java for desktop and system programming
+Tools & Technologies: Git, GitHub, Figma, Google Suite, Canva, Microsoft Excel, Microsoft Word
+Programming Achievements: LeetCode: 90+ problems solved, HackerRank: 5-star Problem Solving badge
+Languages: Filipino (native), English (fluent), Bisaya (native)
+Certifications
+◦ DataCamp Associate Python Certificate - Comprehensive certification covering data manipulation, analysis,
+and machine learning
+◦ SoloLearn JavaScript Certificate - Web development and programming fundamentals
+◦ SoloLearn Java Certificate - Object-oriented programming and application development
+◦ HackerRank 5-Star Problem Solving Badge - Advanced algorithmic problem-solving skills
+John Andre S. Yap - Page 2 of 3
+
+Extracurricular Activities
+◦ Active GitHub contributor with consistent daily contributions and multiple public repositories
+◦ Fitness enthusiast: Running, Boxing/Muay Thai/Martial Arts, and Weightlifting for physical and mental
+discipline
+◦ Avid reader and journal writer, practicing reflective thinking and continuous self-improvement
+◦ Blog writing to share knowledge and document learning journey
+◦ Systems-based thinking approach to personal and professional projects
+John Andre S. Yap - Page 3 of 3

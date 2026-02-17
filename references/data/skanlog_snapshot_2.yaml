@@ -1,0 +1,165 @@
+cv:
+  name: John Andre S. Yap
+  location: Cebu City, Cebu, Philippines
+  email: johnandresyap510@gmail.com
+  phone: +63 915 044 3019
+  social_networks:
+    - network: LinkedIn
+      username: John Andre Yap
+    - network: GitHub
+      username: apotato369550
+  sections:
+    objective:
+      - 'Passionate Computer Science student with hands-on experience in full-stack development, machine learning, and software engineering. Committed to continuous learning and building impactful technology solutions.'
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        date:
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        summary: Currently a 1st year student pursuing Bachelor of Science in Computer Science
+        highlights:
+          - 'DOST-SEI Merit Scholar and DataCamp Scholar'
+          - 'Earned "Best in IT Programming Fundamentals" in Grade 10'
+          - 'Second Place at USC SHS-STEM Research Congress (May 2023)'
+          - 'Graduated Senior High School with High Honors'
+    experience:
+      - company: Cebu Best Value Trading (CBVT)
+        position: Web Developer
+        date:
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        summary: Developing company website and implementing digital solutions for business operations
+        highlights:
+          - 'Building responsive company website using modern web technologies'
+          - 'Implementing user-friendly interfaces and optimized user experience'
+          - 'Collaborating with stakeholders to gather requirements and deliver solutions'
+    skills:
+      - label: Programming Languages
+        details: 'Python, JavaScript, Java, C, PHP, SQL'
+      - label: Web Development
+        details: 'HTML, CSS, Node.js, React, MongoDB, Firebase, Laravel'
+      - label: Data Science & ML
+        details: 'TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn'
+      - label: Tools & Technologies
+        details: 'Git, GitHub, Figma, Google Suite, 90+ LeetCode problems solved'
+    projects:
+      - name: '[TaskMate - FERN Stack Todo App](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-03
+        end_date: 2024-08
+        location:
+        summary: Full-stack web application built with Firebase, Express, React, and Node.js
+        highlights:
+          - 'Implemented complete CRUD functionality with real-time synchronization'
+          - 'Built responsive UI with React and integrated Firebase backend'
+          - 'Deployed scalable web application with user authentication'
+      - name: '[Fake News Detection App](https://github.com/apotato369550)'
+        date:
+        start_date: 2024-01
+        end_date: 2024-06
+        location:
+        summary: Machine learning application using TensorFlow and web scraping for news analysis
+        highlights:
+          - 'Developed deep learning model for text classification and sentiment analysis'
+          - 'Integrated web scraper to collect and process real-time data'
+          - 'Achieved high accuracy in distinguishing authentic vs. fake news articles'
+      - name: '[Minecraft Zombie Apocalypse Plugin](https://github.com/apotato369550)'
+        date:
+        start_date: 2023-06
+        end_date: 2023-12
+        location:
+        summary: Java-based Minecraft server plugin with custom game mechanics
+        highlights:
+          - 'Developed object-oriented plugin architecture with event-driven programming'
+          - 'Implemented multiplayer game mechanics and server optimization'
+          - 'Created engaging user experience with custom survival gameplay features'
+      - name: '[Algorithm Visualizer](https://github.com/apotato369550)'
+        date: 2024
+        start_date:
+        end_date:
+        location:
+        summary: Python educational tool for visualizing sorting and search algorithms
+        highlights:
+          - 'Built interactive GUI for step-by-step algorithm visualization'
+          - 'Implemented multiple sorting algorithms with performance comparison'
+          - 'Created educational tool demonstrating algorithmic thinking and optimization'
+    certifications:
+      - bullet: 'DataCamp Associate Python Certificate - Data science and machine learning'
+      - bullet: 'HackerRank 5-Star Problem Solving Badge - Advanced algorithmic problem-solving'
+      - bullet: 'SoloLearn JavaScript and Java Certificates - Web and application development'
+      - bullet: 'Active GitHub contributor with consistent contributions and multiple repositories'
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 28pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_size: 1.3em
+    bold: true
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.2cm
+  entries:
+    date_and_location_width: 3.8cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: false
+    allow_page_break_in_entries: false
+  highlights:
+    top_margin: 0.2cm
+    vertical_space_between_highlights: 0.2cm
+locale:
+  language: en
+  phone_number_format: national
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+rendercv_settings:
+  date: '2025-06-26'
+  bold_keywords: []

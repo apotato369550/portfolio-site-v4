@@ -1,0 +1,298 @@
+cv:
+  name: John Andre Saberon Yap
+  location: Cebu City, Cebu, Philippines
+  email: 21103565@usc.edu.ph
+  phone: +63-915-044-3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: GitHub
+      username: apotato369550
+    - network: LinkedIn
+      username: John Andre Yap
+
+  sections:
+    personal_information:
+      - bullet: "Date of Birth: May 10, 2004"
+      - bullet: "Place of Birth: Cebu City, Cebu, Philippines"
+      - bullet: "Age: 21"
+      - bullet: "Gender: Male"
+      - bullet: "Nationality: Filipino"
+      - bullet: "Religion: Roman Catholic"
+      - bullet: "Address: 3496 Garnet Street, Casals Village, Barangay Mabolo, Cebu City 6000"
+
+    family_background:
+      - bullet: "Father: Neil John Saberon Yap (Salesman)"
+      - bullet: "Mother: Mary Claire Saberon Yap (deceased)"
+
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        highlights:
+          - Currently a 2nd year student pursuing Bachelor of Science in Computer Science
+          - DOST-SEI Merit Scholar (as of January 2024)
+          - DataCamp Scholar (as of January 2025)
+          
+      - institution: University of San Carlos - North Campus
+        area: Science, Technology, Mathematics, and Engineering (STEM strand)
+        degree: Senior High School Diploma
+        start_date: 2021-06
+        end_date: 2023-05
+        location: Nasipit, Talamban, Cebu City
+        highlights:
+          - Graduated with High Honors
+          - Earned Carolinian Academic Distinction (CAD) award in all semesters of Grade 11 and 12
+          - Second Place at USC SHS-STEM 4th Research Congress (May 12, 2023)
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Junior High School
+        degree: Junior High School Diploma
+        start_date: 2017-06
+        end_date: 2021-05
+        location: Don Jose Avila St, Cebu City
+        highlights:
+          - Awarded 'Best in IT-Fundamentals in Programming' as a grade 10 student (2020-2021)
+          - Former Member of 'Web Dev Organization' (2018-2020)
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Elementary Education
+        degree: Elementary Diploma
+        start_date: 2009-06
+        end_date: 2017-05
+        location: Don Jose Avila St, Cebu City
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Kindergarten
+        degree: Kindergarten Certificate
+        start_date: 2008-06
+        end_date: 2009-05
+        location: Banilad, Cebu City
+
+      - institution: Child Learning Foundation (CLF)
+        area: Nursery I
+        degree: Nursery Certificate
+        start_date: 2007-06
+        end_date: 2008-05
+        location: Cebu City
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Nursery II
+        degree: Nursery Certificate
+        start_date: 2006-06
+        end_date: 2007-05
+        location: Banilad, Cebu City
+
+    experience:
+      - company: Cebu Best Value Trading (CBVT)
+        position: Secretary & Web Developer
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Working under grandfather's company, handling administrative duties and developing company website
+          - Managing administrative tasks and documentation for family trading business
+          - Currently developing and building company website using modern web technologies
+          - Applying systems-based thinking to improve business processes and workflows
+
+    certifications:
+      - name: DataCamp Associate Python Certificate
+        date: 2025-01
+        summary: Comprehensive certification covering data manipulation, analysis, and machine learning
+      - name: SoloLearn JavaScript Certificate
+        date: 2023
+        summary: Web development and programming fundamentals
+      - name: SoloLearn Java Certificate
+        date: 2023
+        summary: Object-oriented programming and application development
+      - name: SoloLearn Python 3 Certificate
+        date: 2023
+        summary: Python programming fundamentals and advanced concepts
+      - name: SoloLearn CSS Certificate
+        date: 2023
+        summary: Cascading Style Sheets for web design
+      - name: SoloLearn HTML Certificate
+        date: 2023
+        summary: HyperText Markup Language for web development
+      - name: SoloLearn C++ Certificate
+        date: 2023
+        summary: C++ programming and system development
+
+    programming_achievements:
+      - bullet: "LeetCode: 90+ problems solved with consistent problem-solving practice"
+      - bullet: "HackerRank: 5-Star Problem Solving badge demonstrating advanced algorithmic skills"
+      - bullet: "Active GitHub contributor with consistent daily contributions and multiple public repositories"
+
+    languages:
+      - label: Filipino
+        details: Native
+      - label: English
+        details: Fluent
+      - label: Bisaya/Cebuano
+        details: Native
+      - label: Tagalog
+        details: Fluent
+
+    extracurricular_activities:
+      - bullet: Active GitHub contributor with consistent daily contributions and multiple public repositories
+      - bullet: Fitness enthusiast practicing Running, Boxing/Muay Thai/Martial Arts, and Weightlifting for physical and mental discipline
+      - bullet: Avid reader and journal writer, practicing reflective thinking and continuous self-improvement
+      - bullet: Blog writing to share knowledge and document learning journey
+      - bullet: Systems-based thinking approach to personal and professional projects
+      - bullet: Former Member of "Web Dev Organization" in Sacred Heart School-Hijas de Jesus (2018-2020)
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 30pt
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: New Computer Modern
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: New Computer Modern
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    nested_bullet: '-'
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        *COMPANY*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-06-30'
+  bold_keywords: []

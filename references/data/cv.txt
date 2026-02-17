@@ -1,0 +1,296 @@
+cv:
+  name: John Andre Saberon Yap
+  location: Cebu City, Cebu, Philippines
+  email: 21103565@usc.edu.ph
+  phone: tel:+63-915-044-3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: GitHub
+      username: apotato369550
+    - network: LinkedIn
+      username: John Andre Yap
+
+  sections:
+    personal_information:
+      - label: Date of Birth
+        details: May 10, 2004
+      - label: Place of Birth
+        details: Cebu City, Cebu, Philippines
+      - label: Age
+        details: 21
+      - label: Gender
+        details: Male
+      - label: Nationality
+        details: Filipino
+      - label: Religion
+        details: Roman Catholic
+      - label: Address
+        details: 3496 Garnet Street, Casals Village, Barangay Mabolo, Cebu City 6000
+
+    family_background:
+      - label: Father
+        details: Neil John Saberon Yap (Salesman)
+      - label: Mother
+        details: Mary Claire Saberon Yap (deceased)
+
+    objective:
+      - Purposeful and intentional computer science student with a passion for systems-based thinking and continuous learning. Committed to being calm, disciplined, organized, and consistent in all endeavors. Philosophy: make progress every day while maintaining balance. Known for the ability to "squeeze water out of stone" when it comes to time management and efficient project execution.
+
+    education:
+      - institution: University of San Carlos
+        area: Bachelor of Science in Computer Science
+        degree: BS Computer Science
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        highlights:
+          - "Currently a 2nd year student pursuing Bachelor of Science in Computer Science"
+          - "DOST-SEI Merit Scholar (as of January 2024)"
+          - "DataCamp Scholar (as of January 2025)"
+          
+      - institution: University of San Carlos - North Campus
+        area: Senior High School - Science, Technology, Mathematics, and Engineering (STEM strand)
+        degree: Senior High School Diploma
+        start_date: 2021-06
+        end_date: 2023-05
+        location: Nasipit, Talamban, Cebu City
+        highlights:
+          - "Graduated with High Honors"
+          - "Earned Carolinian Academic Distinction (CAD) award in all semesters of Grade 11 and 12"
+          - "Second Place at USC SHS-STEM 4th Research Congress (May 12, 2023)"
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Junior High School
+        degree: Junior High School Diploma
+        start_date: 2017-06
+        end_date: 2021-05
+        location: Don Jose Avila St, Cebu City
+        highlights:
+          - "Awarded 'Best in IT-Fundamentals in Programming' as a grade 10 student (2020-2021)"
+          - "Former Member of 'Web Dev Organization' (2018-2020)"
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Elementary Education
+        degree: Elementary Diploma
+        start_date: 2009-06
+        end_date: 2017-05
+        location: Don Jose Avila St, Cebu City
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Kindergarten
+        degree: Kindergarten Certificate
+        start_date: 2008-06
+        end_date: 2009-05
+        location: Banilad, Cebu City
+
+      - institution: Child Learning Foundation (CLF)
+        area: Nursery I
+        degree: Nursery Certificate
+        start_date: 2007-06
+        end_date: 2008-05
+        location: Cebu City
+
+      - institution: Sacred Heart School - Hijas de Jesus
+        area: Nursery II
+        degree: Nursery Certificate
+        start_date: 2006-06
+        end_date: 2007-05
+        location: Banilad, Cebu City
+
+    experience:
+      - company: Cebu Best Value Trading (CBVT)
+        position: Secretary & Web Developer
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - "Working under grandfather's company, handling administrative duties and developing company website"
+          - "Managing administrative tasks and documentation for family trading business"
+          - "Currently developing and building company website using modern web technologies"
+          - "Applying systems-based thinking to improve business processes and workflows"
+
+      - company: Granaire Marketing
+        position: Client Order Manager
+        start_date: 2020-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - "Managed client orders which helped close deals with companies like 1Rotary, Homemaker Furniture, and more"
+          - "Maintained client relationships and ensured order fulfillment"
+
+      - company: Freelance
+        position: Software Developer & Website Builder
+        start_date: 2020-01
+        end_date: present
+        location: Remote
+        highlights:
+          - "Built websites for various clients as a freelance developer"
+          - "Led and oversaw the development of software for Robotics teams (2019-2020)"
+          - "Worked on and contributed to 20+ side projects during spare time while completing high school education"
+
+    projects:
+      - name: TSP Heuristic Research
+        start_date: 2024-10
+        end_date: present
+        highlights:
+          - "Ongoing research project developing heuristic algorithms for Traveling Salesman Problem"
+          - "Researching and implementing various optimization techniques"
+          - "Comparing performance of different heuristic approaches"
+
+      - name: Amazon Reviews Sentiment Analyzer
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - "Machine learning project analyzing customer sentiment from Amazon product reviews"
+          - "Utilized both TensorFlow and Scikit-learn for model comparison"
+          - "Implemented natural language processing techniques for text analysis"
+
+      - name: Personal Portfolio Website
+        start_date: 2024-11
+        end_date: present
+        highlights:
+          - "Personal portfolio website showcasing projects and skills (in development)"
+          - "Designed responsive and modern user interface"
+          - "Integrated project showcase with live demos"
+
+      - name: TaskMate - Complete Todo List
+        start_date: 2024-03
+        end_date: 2024-08
+        highlights:
+          - "Full-stack web application built with FERN stack (Firebase, Express, React, Node.js)"
+          - "Developed complete CRUD functionality for task management"
+          - "Implemented real-time synchronization using Firebase"
+          - "Built responsive UI with React and modern CSS practices"
+
+      - name: Algorithm Visualizer
+        start_date: 2024-01
+        end_date: 2024-12
+        highlights:
+          - "Python-based educational tool for visualizing sorting and search algorithms"
+          - "Created interactive visualizations for common algorithms"
+          - "Implemented multiple sorting algorithms with step-by-step visualization"
+
+      - name: Chat Application
+        start_date: 2024-01
+        end_date: 2024-12
+        highlights:
+          - "Real-time messaging application built with Python"
+          - "Implemented socket programming for real-time communication"
+          - "Built user authentication and message history features"
+
+      - name: Fake News Detection App
+        start_date: 2024-01
+        end_date: 2024-06
+        highlights:
+          - "Machine learning application utilizing web scraping and sentiment analysis to detect fake news"
+          - "Built using TensorFlow for deep learning model implementation"
+          - "Integrated web scraper to collect real-time news data for analysis"
+          - "Implemented sentiment analysis algorithms to classify news authenticity"
+
+      - name: Minecraft Zombie Apocalypse Plugin
+        start_date: 2023-06
+        end_date: 2023-12
+        highlights:
+          - "Java-based Minecraft server plugin creating immersive zombie survival gameplay"
+          - "Developed custom game mechanics and survival systems"
+          - "Implemented event-driven programming for multiplayer interactions"
+
+    technical_skills:
+      - label: Programming Languages
+        details: Python, JavaScript, Java, C, C++, PHP, HTML5, CSS, SQL
+      - label: Web Development
+        details: Node.js, React, MongoDB, Firebase, Laravel, Bootstrap
+      - label: Data Science & Machine Learning
+        details: TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+      - label: Development Tools
+        details: Git, GitHub, VSCode, IntelliJ IDE, PyCharm, Notepad++, Unity, Blender
+      - label: Database Management
+        details: SQL, MongoDB, Firebase
+      - label: Design Tools
+        details: Figma, Photoshop, Canva
+      - label: Office Applications
+        details: Microsoft Office Suite, Google Suite
+      - label: Project Management
+        details: Todoist, Trello
+
+    programming_achievements:
+      - LeetCode: 90+ problems solved with consistent problem-solving practice
+      - HackerRank: 5-Star Problem Solving badge demonstrating advanced algorithmic skills
+      - Active GitHub contributor with consistent daily contributions and multiple public repositories
+      - Developed and deployed multiple full-stack applications with real-world usage
+
+    certifications:
+      - name: DataCamp Associate Python Certificate
+        date: 2025-01
+        details: Comprehensive certification covering data manipulation, analysis, and machine learning
+      - name: SoloLearn JavaScript Certificate
+        date: 2023
+        details: Web development and programming fundamentals
+      - name: SoloLearn Java Certificate
+        date: 2023
+        details: Object-oriented programming and application development
+      - name: SoloLearn Python 3 Certificate
+        date: 2023
+        details: Python programming fundamentals and advanced concepts
+      - name: SoloLearn CSS Certificate
+        date: 2023
+        details: Cascading Style Sheets for web design
+      - name: SoloLearn HTML Certificate
+        date: 2023
+        details: HyperText Markup Language for web development
+      - name: SoloLearn C++ Certificate
+        date: 2023
+        details: C++ programming and system development
+
+    languages:
+      - language: Filipino
+        fluency: Native
+      - language: English
+        fluency: Fluent
+      - language: Bisaya/Cebuano
+        fluency: Native
+      - language: Tagalog
+        fluency: Fluent
+
+    soft_skills:
+      - Client-Oriented approach with focus on understanding and meeting client needs
+      - Highly Self-driven with ability to work independently and take initiative
+      - Team Collaboration with experience working in both independent and team environments
+      - Effective Time Management with proven ability to handle multiple projects simultaneously
+      - Effective Communication skills in multiple languages
+      - Effective Leadership with experience leading development teams
+      - Proficient Project Organization using modern tools and methodologies
+      - Systems-based thinking approach to problem-solving
+      - Skilled Typist with average typing speed of 90 words per minute (range: 70-120 WPM)
+
+    extracurricular_activities:
+      - Active GitHub contributor with consistent daily contributions and multiple public repositories
+      - Fitness enthusiast practicing Running, Boxing/Muay Thai/Martial Arts, and Weightlifting for physical and mental discipline
+      - Avid reader and journal writer, practicing reflective thinking and continuous self-improvement
+      - Blog writing to share knowledge and document learning journey
+      - Systems-based thinking approach to personal and professional projects
+      - Former Member of "Web Dev Organization" in Sacred Heart School-Hijas de Jesus (2018-2020)
+
+    character_references:
+      - name: Zachary Dayle Garcia
+        position: Pilot at Cebu Pacific
+        phone: 09612884227
+        email: zacharydaylegarcia@gmail.com
+        location: Mactan-Cebu International Airport, Lapu-Lapu City
+      - name: Edgiza Karell Labastida
+        position: Software Developer at Angkas
+        phone: 09958360112
+        email: edgizalabastida@gmail.com
+        location: F. Cabahug St, Cebu City
+
+design:
+  theme: moderncv
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: a4paper
+  color_accent: blue
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in MONTH YEAR
+  header_separator: none

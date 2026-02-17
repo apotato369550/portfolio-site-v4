@@ -23,3 +23,5 @@ npm-debug.log*
 
 # References — populated by scraper, not tracked
 references/readmes/
+
+INTENT.md

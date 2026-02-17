@@ -1,0 +1,182 @@
+cv:
+  name: John Andre S. Yap
+  location: Cebu City, Cebu, Philippines
+  email: johnandresyap510@gmail.com
+  phone: +63 915 044 3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: GitHub
+      username: apotato369550
+    - network: LinkedIn
+      username: John Andre Yap
+
+  sections:
+    profile:
+      - "Second-year CS student at USC, currently interning as an AI engineer building Python backends, ecommerce analysis pipelines, and video generation services. I think in systems and constraints — what's fixed, what's flexible, what breaks. Leading GDGoc-USC, running a homelab, and researching AI memory architectures and university timetabling on the side."
+
+    experience:
+      - company: Evo Tech Software Solutions
+        position: AI Engineer Intern
+        start_date: 2025-09
+        end_date: present
+        location: Philippines
+        highlights:
+          - Built a FastAPI backend with 16 endpoints for AI-powered Amazon listing analysis — a two-phase pipeline that analyzes each image individually then synthesizes insights across the full listing using GPT-4 Vision
+          - Engineered a video generation service using Sora 2 and Sora 2 Pro with persistent character identities across scenes, multi-duration support (15–60s), and context-aware model selection based on content type (UGC vs. showcase)
+          - Built production-grade features into the API - async concurrent processing, per-IP rate limiting, in-memory caching, retry logic, and a three-layer timeout system with graceful degradation
+          - Built image generation pipelines with Nano Banana Pro for ecommerce product visualization and designed RAG pipelines for internal document retrieval
+
+      - company: Cebu Best Value Trading (CBVT)
+        position: Systems Developer, Web Developer & Secretary
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Built a quotation generator that uses OCR and AI to read my grandfather's handwritten notes and output formatted digital quotations — replacing a manual, error-prone process
+          - Built a kitchen management system to handle inventory, orders, and operations for a separate family business unit
+          - Developing and maintaining the company website
+          - Handle administrative tasks and documentation for the family trading company
+
+      - company: Google Developer Groups on Campus – USC (GDGoc-USC)
+        position: Lead
+        start_date: 2026-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Promoted from Data Science Officer (Aug 2025) to Chapter Lead (Jan 2026)
+          - Organizing technical workshops, study jams, and community initiatives for USC CS/tech students
+
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        highlights:
+          - 'Dean''s Lister — 2nd Semester, A.Y. 2024–2025'
+          - DOST-SEI Merit Scholar (Since Jan 2024); DataCamp Scholar (Since Jan 2025)
+          - AI and Data Lead, DOST START 
+          - Second Place, USC SHS-STEM 4th Research Congress (May 2023)
+          - Graduated Senior High School with High Honors; Carolinian Academic Distinction (CAD) — all Grade 11 & 12 semesters
+
+    projects:
+      - name: timetabling-algorithms — University Scheduling Research
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A research framework for solving the very real problem of scheduling university courses without conflicts — treating it as a constraint problem where rooms, professors, and time slots all have to fit together
+          - Compares a custom backtracking implementation against Google's OR-Tools CP-SAT solver to see where each approach wins and loses, tested on both real course data and synthetic problem sets
+
+      - name: "jays-ai-agent-suite — Personal Agent Library"
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A growing collection of specialized AI agents built while working with Claude Code — each one scoped to a specific job like architecture tracing, debugging, design review, or session archiving
+          - Built to reflect how I actually work rather than how workflows are supposed to look, with clear role boundaries and explicit handoffs between agents
+
+      - name: ai-yeast — LLM Memory System
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A memory system for language models that gives them a sense of continuity across conversations — built on three layers (recent events, distilled facts, and core identity) with memories that strengthen through use and decay over time
+          - Includes a RAG layer for document retrieval and reflection gates that validate outputs before updating memory, running on Mistral 7B via Ollama
+
+      - name: Fake News Detection App
+        start_date: 2024-01
+        end_date: 2024-06
+        highlights:
+          - A classifier that scrapes news articles in real time and flags whether they're likely authentic or fabricated, built with TensorFlow
+          - Combined web scraping, text preprocessing, and sentiment analysis into a single end-to-end pipeline
+
+    skills:
+      - label: AI/ML & Data
+        details: 'Python, RAG pipelines, LangChain, TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, NLP'
+      - label: Backend & APIs
+        details: 'RESTful API design, FastAPI, Flask, Node.js, Express, SQL, MongoDB, Firebase'
+      - label: Systems & Infrastructure
+        details: 'Linux, Bash scripting, systems administration, homelabbing, Git, GitHub'
+      - label: Generative AI
+        details: 'LLM orchestration, Sora 2 / Sora 2 Pro (video generation), Nano Banana Pro (image generation)'
+      - label: Other
+        details: 'Java, C, JavaScript, React, PHP, Laravel, HTML/CSS, DeFi/Web3 (exploratory)'
+
+    achievements:
+      - bullet: 'DataCamp Associate Python Certificate (Jan 2025) — data manipulation, analysis, and ML'
+      - bullet: 'LeetCode: 90+ problems solved | HackerRank: 5-Star Problem Solving badge'
+      - bullet: 'SoloLearn certificates: JavaScript, Java, Python 3, CSS, HTML, C++ (2023)'
+      - bullet: 'Active GitHub contributor — consistent daily contributions across multiple public repositories'
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 28pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_size: 1.3em
+    bold: true
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.2cm
+  entries:
+    date_and_location_width: 3.8cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: false
+  highlights:
+    top_margin: 0.2cm
+    vertical_space_between_highlights: 0.2cm
+
+locale:
+  language: en
+  phone_number_format: national
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  present: present
+  to: '–'
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+
+rendercv_settings:
+  date: '2026-02-11'
+  bold_keywords: []
