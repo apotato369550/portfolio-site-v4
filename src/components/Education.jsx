@@ -1,4 +1,5 @@
 import { educationData } from '../data/content';
+import uscLogo from '../assets/usc.png';
 
 export default function Education() {
   return (
@@ -7,10 +8,24 @@ export default function Education() {
       {educationData.map((entry, i) => (
         <div key={i} className="entry fade-in">
           <div className="entry-top">
-            <div>
-              <strong className="entry-title">{entry.institution}</strong>
-              <em className="entry-sub">{entry.degree}</em>
-            </div>
+            {i === 0 && (
+              <div className="education-entry-top">
+                <img src={uscLogo} alt="University of San Carlos" className="edu-logo" />
+                <div>
+                  <strong className="entry-title">{entry.institution}</strong>
+                  <em className="entry-sub">{entry.degree}</em>
+                </div>
+              </div>
+            )}
+            {i !== 0 && (
+              <div className="education-entry-top">
+                <img src={uscLogo} alt="University of San Carlos" className="edu-logo" />
+                <div>
+                  <strong className="entry-title">{entry.institution}</strong>
+                  <em className="entry-sub">{entry.degree}</em>
+                </div>
+              </div>
+            )}
             <span className="card-date">{entry.date}</span>
           </div>
           <ul className="entry-list">
