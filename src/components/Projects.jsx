@@ -1,52 +1,54 @@
 import { featuredProject, projectsData } from '../data/content';
 import MapReduceDiagram from './MapReduceDiagram';
+import AiYeastDiagram from './AiYeastDiagram';
+import TimetablingDiagram from './TimetablingDiagram';
+import AgentSuiteDiagram from './AgentSuiteDiagram';
+import EnrollmateDiagram from './EnrollmateDiagram';
+import KitchenDiagram from './KitchenDiagram';
+
+const diagrams = {
+  'Amazon Listing Analyzer API': MapReduceDiagram,
+  'ai-yeast': AiYeastDiagram,
+  'timetabling-algorithms': TimetablingDiagram,
+  'jays-ai-agent-suite': AgentSuiteDiagram,
+  'enrollmate': EnrollmateDiagram,
+  'kitchen-management-system': KitchenDiagram,
+};
 
 export default function Projects() {
+  const allProjects = [featuredProject, ...projectsData];
+
   return (
     <section id="projects">
       <h2>Projects</h2>
       <div className="project-grid">
-
-        {/* Featured — spans full width with inline diagram */}
-        <div className="card project-card project-card--featured fade-in">
-          <div className="card-header">
-            <strong className="project-title">{featuredProject.title}</strong>
-            <span className="card-date">{featuredProject.date}</span>
-          </div>
-          <p className="project-label">{featuredProject.label}</p>
-          <div className="featured-inner">
-            <div className="featured-body">
-              <p
-                className="card-body"
-                dangerouslySetInnerHTML={{ __html: featuredProject.body }}
-              />
-              <div className="tags">
-                {featuredProject.tags.map(tag => (
-                  <span key={tag} className="tag">{tag}</span>
-                ))}
+        {allProjects.map((project, i) => {
+          const Diagram = diagrams[project.title];
+          return (
+            <div key={i} className="project-entry fade-in">
+              <div className={`project-inner${i % 2 !== 0 ? ' project-inner--reverse' : ''}`}>
+                <div className="project-inner-body">
+                  <div className="project-header">
+                    <strong className="project-title">{project.title}</strong>
+                    <span className="project-meta">{project.label} · {project.date}</span>
+                  </div>
+                  <p className="project-body" dangerouslySetInnerHTML={{ __html: project.body }} />
+                  <div className="project-tags">
+                    {project.tags.map((tag, j) => (
+                      <span key={j} className="tag">{tag}</span>
+                    ))}
+                  </div>
+                  {project.note && <p className="personal-note">{project.note}</p>}
+                </div>
+                {Diagram && (
+                  <div className="diagram">
+                    <Diagram />
+                  </div>
+                )}
               </div>
             </div>
-            <MapReduceDiagram />
-          </div>
-        </div>
-
-        {/* 2-col grid */}
-        {projectsData.map((project, i) => (
-          <div key={i} className="card project-card fade-in">
-            <div className="card-header">
-              <strong className="project-title">{project.title}</strong>
-              <span className="card-date">{project.date}</span>
-            </div>
-            <p className="project-label">{project.label}</p>
-            <p className="card-body" dangerouslySetInnerHTML={{ __html: project.body }} />
-            <div className="tags">
-              {project.tags.map(tag => (
-                <span key={tag} className="tag">{tag}</span>
-              ))}
-            </div>
-          </div>
-        ))}
-
+          );
+        })}
       </div>
     </section>
   );
