@@ -1,0 +1,208 @@
+cv:
+  name: John Andre S. Yap
+  location: Cebu City, Cebu, Philippines
+  email: johnandresyap510@gmail.com
+  phone: +63 915 044 3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: GitHub
+      username: apotato369550
+    - network: LinkedIn
+      username: John Andre Yap
+
+  sections:
+    profile:
+      - "Second-year CS student at USC, interning as a backend engineer — building systems for real operations and making sense of the data those systems produce. I've worked on production APIs, tools for family businesses, and analytics projects covering customer retention, financial decisions, and inventory planning. Currently leading GDGoc-USC and running a homelab on the side."
+
+    experience:
+      - company: Evo Tech Software Solutions
+        position: Backend Developer Intern
+        start_date: 2025-09
+        end_date: present
+        location: Philippines
+        highlights:
+          - Built a production FastAPI backend with 16 endpoints that analyzes Amazon product listings — takes all the images in a listing, extracts insights from each one, then synthesizes them into a single report a seller can act on
+          - Built reliability features into the API from the start — async processing, per-IP rate limiting, in-memory caching, retry logic, and a three-layer timeout system so the service holds up under real traffic
+          - Engineered a video generation service with context-aware model selection, multi-duration support (15–60s), and persistent character state across scenes
+          - Built image generation and document retrieval pipelines for ecommerce product visualization and internal search
+
+      - company: Cebu Best Value Trading (CBVT)
+        position: Systems Developer, Web Developer & Secretary
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Built a kitchen management system that tracks raw materials, daily production output, and customer orders — and exports everything to Excel and PDF so the business has clean records for accounting and planning
+          - Built a full service management platform for the family HVAC business, digitizing the workflow from client request through technician assignment to invoice — giving management a clear view of every active job
+          - Built a quotation generator that reads my grandfather's handwritten supplier notes using OCR and outputs formatted digital quotations, replacing a slow and error-prone manual process
+          - Developing and maintaining the company and family business websites; handle administrative tasks and documentation for the trading company
+
+      - company: Google Developer Groups on Campus – USC (GDGoc-USC)
+        position: Lead
+        start_date: 2026-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Served as Data Science Officer (Aug 2025) before being promoted to Lead (Jan 2026) — ran workshops and learning programs specifically in data science and machine learning for USC students
+          - Organizing technical workshops, study jams, and community initiatives for the broader USC CS/tech community
+
+      - company: DOST SA USC
+        position: Finance Officer
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Manage financial and administrative records for a community of DOST-SEI Merit Scholars at USC — tracking stipend information, scholar eligibility, and organization statistics
+          - Built scholar-portal, an internal platform for real-time stipend updates, announcements, and event management using Next.js, TypeScript, Supabase, and better-auth — deployed and actively used by the scholar community
+
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        start_date: 2024-01
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        highlights:
+          - 'Dean''s Lister — 2nd Semester, Top 1 in Computer Science A.Y. 2024–2025'
+          - DOST-SEI Merit Scholar (Since Jan 2024)
+          - AI and Data Lead, DOST START Program
+
+      - institution: DataCamp
+        area: Data Science and Machine Learning
+        degree: Career Certificates
+        start_date: 2024-01
+        end_date: present
+        location: Online
+        highlights:
+          - 'Completed three full career-track certificates funded through a competitive scholarship: Associate Data Analyst in SQL, Associate Data Scientist in Python, and Machine Learning Scientist in Python'
+          - 'Career tracks covered: SQL-based data analysis and reporting; end-to-end predictive modeling with Python; and advanced machine learning including supervised learning, unsupervised clustering, deep learning, and natural language processing'
+          - Completed dozens of hands-on projects using real business datasets across finance, telecom, retail, and healthcare
+
+    projects:
+      - name: Kitchen Management System — CBVT
+        start_date: 2024
+        end_date: present
+        highlights:
+          - A web-based operations tool for the family food business — tracks raw materials used each day, records production output, and manages customer orders with partial delivery tracking
+          - Role-based access for owners and kitchen staff; all records exportable to Excel and PDF for accounting and end-of-day reporting
+          - Built with Django and PostgreSQL, deployed on Render
+
+      - name: Quotation Generator — CBVT
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Reads my grandfather's handwritten supplier notes using OCR and AI, then outputs clean, formatted digital quotations — replacing a manual transcription step that was slow and prone to error
+          - React frontend connected to an AI-powered processing backend; built for non-technical family members to use without training
+
+      - name: Applied Analytics on Business Datasets
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Worked through real business datasets to answer practical questions — which customers are likely to leave a telecom company and why, which credit card applicants should be approved, what factors drive how long a customer rents a product
+          - Applied classification, regression, clustering, and hypothesis testing across finance, retail, and healthcare data — each project runs end-to-end from raw data to a conclusion a business can act on
+
+      - name: homelab-manager — Infrastructure Automation
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A Bash CLI for managing multiple homelab server nodes to collect system specs, monitor real-time stats, and test bandwidth across nodes via SSH without manually connecting to each machine
+          - Supports both interactive menu navigation and direct CLI args, so it works for daily use and in automated scripts without modification
+
+      - name: enrollmate — Schedule Conflict Solver
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A full-stack tool that takes a student's course selections and finds all conflict-free schedule combinations using a constraint engine — the same class of problem as staff rostering, logistics, and resource allocation
+          - Next.js + Supabase frontend with PDF export; paired with a browser extension that pulls course data directly from the university registration portal so nothing has to be entered manually
+
+    skills:
+      - label: Systems & Infrastructure
+        details: 'Linux, Bash scripting, SSH, multi-node administration, homelab ops, Git, GitHub'
+      - label: Data & Analytics
+        details: 'Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter, SQL, TensorFlow, natural language processing'
+      - label: Backend & APIs
+        details: 'RESTful API design, FastAPI, Django, Flask, PHP, Node.js, Express, PostgreSQL, MongoDB, Firebase'
+      - label: Frontend & Full-Stack
+        details: 'React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML/CSS, Laravel'
+      - label: Other
+        details: 'Java, C, RAG pipelines, LangChain, DeFi/Web3 (exploratory)'
+
+    achievements:
+      - bullet: 'DataCamp career certificates (via scholarship): Associate Data Analyst in SQL, Associate Data Scientist in Python, Machine Learning Scientist in Python'
+      - bullet: 'LeetCode: 90+ problems solved | HackerRank: 5-Star Problem Solving badge'
+      - bullet: 'SoloLearn certificates: JavaScript, Java, Python 3, CSS, HTML, C++ (2023)'
+      - bullet: 'Active GitHub contributor — consistent daily contributions across multiple public repositories'
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 28pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_size: 1.3em
+    bold: true
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.2cm
+  entries:
+    date_and_location_width: 3.8cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: false
+  highlights:
+    top_margin: 0.2cm
+    vertical_space_between_highlights: 0.2cm
+
+locale:
+  language: en
+  phone_number_format: national
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  present: present
+  to: '–'
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+
+rendercv_settings:
+  date: '2026-02-18'
+  bold_keywords: []

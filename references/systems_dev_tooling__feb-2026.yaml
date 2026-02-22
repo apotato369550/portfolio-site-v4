@@ -1,0 +1,182 @@
+cv:
+  name: John Andre S. Yap
+  location: Cebu City, Cebu, Philippines
+  email: johnandresyap510@gmail.com
+  phone: +63 915 044 3019
+  website: https://github.com/apotato369550
+  social_networks:
+    - network: GitHub
+      username: apotato369550
+    - network: LinkedIn
+      username: John Andre Yap
+
+  sections:
+    profile:
+      - "Second-year CS student at USC with hands-on experience building systems for real operations — from a production API at an AI software company to tools that replaced manual workflows in my family's businesses. I care about what actually runs, who depends on it, and whether it holds up. Currently leading GDGoc-USC and managing my own multi-node homelab."
+
+    experience:
+      - company: Evo Tech Software Solutions
+        position: Backend Developer Intern
+        start_date: 2025-09
+        end_date: present
+        location: Philippines
+        highlights:
+          - Designed and built a production FastAPI backend with 16 endpoints — structured around clean separation of concerns, async concurrent processing, and per-IP rate limiting to handle real traffic
+          - Built reliability features into the API from day one — in-memory caching, retry logic, and a three-layer timeout system with graceful degradation so the service stays up even when upstream models don't respond
+          - Engineered a video generation service with context-aware model selection, multi-duration support (15–60s), and persistent character state across scenes
+          - Built image generation and document retrieval pipelines for ecommerce product analysis and internal search
+
+      - company: Cebu Best Value Trading (CBVT)
+        position: Systems Developer, Web Developer & Secretary
+        start_date: 2024-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Built a full service management platform for the family HVAC business — digitizing the entire workflow from client service requests through quotation, technician assignment, and invoice generation, with role-based access for clients, workers, and managers
+          - Built a kitchen management system to track raw materials, daily production output, and customer orders — replacing a paper-based process with a proper database, role-based access, and Excel/PDF export for daily operations
+          - Built a quotation generator that uses OCR and AI to read my grandfather's handwritten supplier notes and output formatted digital quotations — eliminating a slow, error-prone manual step
+          - Developed and maintain the company and family business websites; handle administrative tasks and documentation for the trading company
+
+      - company: Google Developer Groups on Campus – USC (GDGoc-USC)
+        position: Lead
+        start_date: 2026-01
+        end_date: present
+        location: Cebu City, Philippines
+        highlights:
+          - Promoted from Data Science Officer (Aug 2025) to Lead (Jan 2026)
+          - Organizing technical workshops, study jams, and community initiatives for USC CS/tech students
+
+    education:
+      - institution: University of San Carlos
+        area: Computer Science
+        degree: BS
+        start_date: 2023-09
+        end_date: 2027-06
+        location: Cebu City, Philippines
+        highlights:
+          - 'Dean''s Lister — 2nd Semester, A.Y. 2024–2025'
+          - DOST-SEI Merit Scholar (Since Jan 2024); DataCamp Scholar (Since Jan 2025)
+          - AI and Data Lead, DOST START Program
+          - Second Place, USC SHS-STEM 4th Research Congress (May 2023)
+          - Graduated Senior High School with High Honors; Carolinian Academic Distinction (CAD) — all Grade 11 & 12 semesters
+
+    projects:
+      - name: homelab-manager — Infrastructure Automation
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A Bash CLI for managing multiple homelab nodes — collects system specs, monitors real-time stats, and tests bandwidth across nodes via SSH, all from one place without manually connecting to each machine
+          - Supports both interactive menu navigation and direct CLI args, so it works for human use and in automation scripts without modification
+
+      - name: sysdawg — LLM-Powered Diagnostics Tool
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Runs automatic system diagnostics (memory, disk, processes) across homelab nodes and sends them to a local Mistral 7B model for advisory analysis — returns troubleshooting guidance without ever executing commands autonomously
+          - 'The "advisory-only" constraint was deliberate — a tool that can diagnose but not act is safe to run remotely, on shared machines, and in situations where autonomous execution would be a liability'
+
+      - name: enrollmate — Course Conflict Solver
+        start_date: 2025
+        end_date: present
+        highlights:
+          - A full-stack tool that takes a student's course selections and finds all conflict-free schedule combinations using a backtracking constraint engine — the same class of problem as university timetabling, applied to individual registration
+          - Next.js + Supabase frontend with PDF export; paired with a browser extension that scrapes course data directly from the university registration portal so students don't have to enter it manually
+
+      - name: im-2-project — CBVT Service Management Platform
+        start_date: 2024
+        end_date: 2024
+        highlights:
+          - Full web platform built for the family HVAC trading company — handles the complete service lifecycle from client request to technician assignment to invoice, with JWT-authenticated role separation across client, worker, and manager views
+          - PHP REST API backend with React frontend and MySQL — built as a course project that also happened to be a real client requirement
+
+    skills:
+      - label: Systems & Infrastructure
+        details: 'Linux, Bash scripting, SSH, multi-node administration, homelab ops, Git, GitHub'
+      - label: Backend & APIs
+        details: 'RESTful API design, FastAPI, Django, Flask, PHP, Node.js, Express, SQL, PostgreSQL, MongoDB, Firebase'
+      - label: Frontend & Full-Stack
+        details: 'React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML/CSS, Laravel'
+      - label: AI/ML & Data
+        details: 'Python, RAG pipelines, LangChain, TensorFlow, Scikit-learn, Pandas, NumPy, LLM integration'
+      - label: Other
+        details: 'Java, C, DeFi/Web3 (exploratory), OCR, browser extension development'
+
+    achievements:
+      - bullet: 'DataCamp Associate Python Certificate (Jan 2025) — data manipulation, analysis, and ML'
+      - bullet: 'LeetCode: 90+ problems solved | HackerRank: 5-Star Problem Solving badge'
+      - bullet: 'SoloLearn certificates: JavaScript, Java, Python 3, CSS, HTML, C++ (2023)'
+      - bullet: 'Active GitHub contributor — consistent daily contributions across multiple public repositories'
+
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.5em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 28pt
+    name_bold: true
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.5cm
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_size: 1.3em
+    bold: true
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.2cm
+  entries:
+    date_and_location_width: 3.8cm
+    vertical_space_between_entries: 0.8em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: false
+  highlights:
+    top_margin: 0.2cm
+    vertical_space_between_highlights: 0.2cm
+
+locale:
+  language: en
+  phone_number_format: national
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  present: present
+  to: '–'
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+
+rendercv_settings:
+  date: '2026-02-18'
+  bold_keywords: []
