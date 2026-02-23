@@ -393,7 +393,7 @@ h2 {
 /* ─── Affiliations ───────────────────────────────────────── */
 .affiliations-grid {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 36px;
 }
 
@@ -401,6 +401,8 @@ h2 {
   display: flex;
   gap: 24px;
   align-items: flex-start;
+  flex: 1 1 calc(50% - 18px);
+  min-width: 280px;
 }
 
 .affil-logo {
@@ -618,6 +620,117 @@ footer {
   color: #bbb;
 }
 
+/* ─── Contact Form ───────────────────────────────────────── */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-field label {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.contact-field input,
+.contact-field textarea {
+  width: 100%;
+  border: 1px solid #000;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 18px;
+  background: #fff;
+  color: #000;
+}
+
+.contact-field input:focus,
+.contact-field textarea:focus {
+  outline: none;
+  background: #fafafa;
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-field.error input,
+.contact-field.error textarea {
+  border-color: #c00;
+  background: #fff5f5;
+}
+
+.contact-error-text {
+  font-size: 13px;
+  color: #c00;
+  margin-top: -2px;
+}
+
+.contact-submit {
+  border: 1px solid #000;
+  padding: 8px 24px;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  align-self: flex-start;
+}
+
+.contact-submit:hover:not(:disabled) {
+  background: #000;
+  color: #fff;
+}
+
+.contact-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contact-status {
+  font-size: 15px;
+  color: #888;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.contact-status--error {
+  color: #c00;
+}
+
+/* ─── Education + Scholarships Two-Column ───────────────── */
+.edu-scholar-row {
+  display: flex;
+  gap: 64px;
+  align-items: flex-start;
+  margin-bottom: 96px;
+}
+
+.edu-scholar-row > section {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .edu-scholar-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  .edu-scholar-row > section {
+    margin-bottom: 96px;
+  }
+}
+
 /* ─── Fade-in ────────────────────────────────────────────── */
 .fade-in {
   opacity: 0;
@@ -649,6 +762,8 @@ footer {
   .project-card--featured { grid-column: span 1; }
   .project-inner { flex-direction: column; }
   .scholarships-grid { flex-direction: column; gap: 32px; }
+  .affiliations-grid { flex-direction: column; }
+  .affil-entry { flex: 1 1 100%; }
   .affil-logo { width: 40px; height: 40px; }
   h1 { font-size: 42px; }
   h2 { font-size: 28px; }

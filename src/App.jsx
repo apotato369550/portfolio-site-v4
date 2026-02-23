@@ -8,6 +8,7 @@ import Affiliations from './components/Affiliations';
 import Scholarships from './components/Scholarships';
 import Education from './components/Education';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 export default function App() {
   useFadeIn();
@@ -20,8 +21,11 @@ export default function App() {
         <Projects />
         <Skills />
         <Affiliations />
-        <Scholarships />
-        <Education />
+        <div className="edu-scholar-row">
+          <Education />
+          <Scholarships />
+        </div>
+        <Contact />
       </main>
       <Footer />
     </div>
