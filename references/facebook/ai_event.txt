@@ -1,0 +1,17 @@
+Stop planning. Start building. ⚡
+Turn your ideas into working apps and software solutions using AI-powered workflows built for speed and execution. This hands-on workshop goes beyond vibe coding! 
+In this workshop, you will learn:
+- Structured prototyping and implementation with agent orchestration
+- Best practices and principles for effective AI-assisted development, and
+- Getting started with making the most out of  your AI assistants in your IDEs
+Perfect for hackathons and real-world MVPs—days of work in hours; hours of work in minutes!
+Whether it be Claude Code, Codex, or Antigravity, be an MVP at rapid-prototyping MVPs!
+📅 February 28, 2026
+⏰ 1:30 – 4:00 PM
+📍 Bunzel Building, LB447 (4th Floor)
+🎤 Speakers:
+• John Andre Yap— Lead
+• Geri Gian Epanto — Chief Tech Officer
+This event is affiliated with Innovare: USC Competition Guild's HackUSC! Join this workshop and earn a point for your team 🔥
+Registration link in the comments below 👇
+See you there!
