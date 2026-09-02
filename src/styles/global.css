@@ -13,8 +13,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ─── Matrix Rain Background ───────────────────────────────
+   Fixed full-viewport canvas, painted behind all page content.
+   See docs/JAY_STYLE_GUIDE.md > Interaction & Motion for the
+   documented exception this represents. */
+.matrix-rain {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
 /* ─── Layout ────────────────────────────────────────────── */
 .page {
+  position: relative;
+  z-index: 1;
   width: clamp(320px, 70vw, 1400px);
   margin: 0 auto;
   padding: 80px clamp(24px, 4vw, 72px) 100px;

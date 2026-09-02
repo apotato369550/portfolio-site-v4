@@ -1,4 +1,5 @@
 import { useFadeIn } from './hooks/useFadeIn';
+import MatrixRain from './components/MatrixRain';
 import Header from './components/Header';
 import Profile from './components/Profile';
 import Experience from './components/Experience';
@@ -13,21 +14,24 @@ import Contact from './components/Contact';
 export default function App() {
   useFadeIn();
   return (
-    <div className="page">
-      <Header />
-      <main>
-        <Profile />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Affiliations />
-        <div className="edu-scholar-row">
-          <Education />
-          <Scholarships />
-        </div>
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <MatrixRain />
+      <div className="page">
+        <Header />
+        <main>
+          <Profile />
+          <Experience />
+          <Projects />
+          <Skills />
+          <Affiliations />
+          <div className="edu-scholar-row">
+            <Education />
+            <Scholarships />
+          </div>
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }

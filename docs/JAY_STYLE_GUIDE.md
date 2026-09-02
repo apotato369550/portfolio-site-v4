@@ -568,6 +568,18 @@ If tabs exist (e.g., skill categories), fade between tabs using `opacity 0.22s e
 - **Submit hover:** Inverted colors (black bg, white text)
 - **Disabled:** Opacity 0.6, cursor not-allowed
 
+### Matrix Rain Background
+
+**Canvas:** Fixed, full-viewport `<canvas>` behind all content (`.matrix-rain`, `z-index: 0`, page content stacked above via `.page { position: relative; z-index: 1 }`), driven by `requestAnimationFrame` outside React's render cycle.
+
+**Values:** Grayscale only — black glyphs, head at `rgba(0,0,0,0.22)` fading linearly to 0 over each drop's own tail length, randomized per drop between `tailLengthMin`–`tailLengthMax` (default 15–30 glyphs). Each drop's trail is tracked explicitly (a per-drop glyph queue) and the canvas is fully cleared to white every frame, so every tail vanishes completely at its own fixed length instead of relying on translucent-overwrite persistence — no residue accumulation. No color. Drop count scales with viewport width (`dropDensityStep`, default ~1.4× font size — denser than earlier passes for more frequent rainfall); each drop's x position, its respawn gap (`gapMinRows`–`gapMaxRows`, default 3–15 rows), and its respawn timing (`resetProbability`, default 0.9) are randomized/tuned independently per drop rather than locked to a grid, so falls read as discrete, irregularly-spaced drops instead of a uniform curtain.
+
+**Customization:** `MatrixRain` (`src/components/MatrixRain.jsx`) accepts `tailLengthMin`, `tailLengthMax`, `dropDensityStep`, `gapMinRows`, `gapMaxRows`, and `resetProbability` as props, all with the defaults above — adjust at the call site in `App.jsx` rather than editing the component's internals.
+
+**Accessibility:** Disabled entirely when `prefers-reduced-motion: reduce` is set.
+
+**Philosophy:** This is the one deliberate exception to "no background images/animation" in this guide. It's kept subordinate to content by design — opacity is tuned so it reads as faint texture, never competes with text legibility, and never introduces color (respecting the one-subtle-accent budget). Treat any further adjustment to its intensity as a design decision requiring the same restraint as the rest of this system, not a default to escalate.
+
 ---
 
 ## Voice & Tone
@@ -613,7 +625,7 @@ Instead: Use first-person, direct language. "I build." "I study." "I lead." "I w
 - No shadows
 - No rounded corners (keep everything sharp/orthogonal)
 - No icons in body text (use words)
-- No hero images or background images
+- No hero images or background images (see exception: Matrix Rain background under Interaction & Motion)
 - No modals or overlays
 - No new accent colors (this is black and white)
 
