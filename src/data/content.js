@@ -1,33 +1,35 @@
 // ── Experience ─────────────────────────────────────────────
 export const experienceData = [
   {
-    title: 'AI Engineer Intern',
+    title: 'Software Engineer Intern',
     org: 'Evo Tech Software Solutions',
-    date: 'Sept 2025 – present',
+    date: 'Sept 2025 – April 2026',
     logo: 'evotech.jpeg',
-    body: `Building the AI system behind a platform that analyzes and optimizes ecommerce data. Exploring and tinkering with stuff like <span data-tip='Retrieval-Augmented Generation: AI that searches your own documents before answering — so it stays grounded in real data, not just what it was trained on'>RAG</span>, <span data-tip='AI systems trained on massive amounts of text that can read, write, summarize, and reason about language'>large language models</span>, <span data-tip='AI that creates images or video from text descriptions or other inputs'>video and image generation models</span>, and architectural principles like <span data-tip='Split a task into parallel pieces (map), then combine all the results (reduce) — faster than doing everything one step at a time'>map-reduction</span>, <span data-tip='When something goes wrong, stop immediately and report the error — rather than continuing with bad or incomplete data'>fail-fast</span>, and <span data-tip='When part of a system fails, it returns partial results instead of crashing entirely — you get something useful instead of a blank error screen'>graceful degradation</span>. And, in doing so, learning a lot about the possibilities and limitations of AI - one line of Python code written at a time.`,
+    body: `Building backend systems and AI-powered services, with hands-on experience designing RESTful API endpoints and transactional data workflows. Applying AI technologies such as vector embeddings, Retrieval-Augmented Generation (RAG), and computer vision, while exploring software architecture principles including separation of concerns, asynchronous processing, fault tolerance, graceful degradation, and fail-fast design. Learning how to build reliable systems around rapidly evolving AI capabilities.
+`,
     note: '',
   },
   {
-    title: 'Systems Developer & Secretary',
-    org: 'Cebu Best Value Trading (CBVT)',
+    title: 'Web Developer, Designer, and Secretary',
+    org: 'Cebu Best Value Trading (CBVT) - HVAC Division',
     date: 'Jan 2024 – present',
     logo: 'cbvt',
-    body: `As the current standing secretary and developer of our company, I helped build some tools to automate some parts of the business process - quotation generation and record-keeping, resource management, and more - while integrating AI technologies like <span data-tip='Optical Character Recognition — converts handwriting or printed text in images into editable digital text'>OCR</span> to read my grandfather's handwriting.`,
+    body: `Developed the division’s landing page and supporting visual assets, including marketing graphics and business cards; handled administrative operations including documentation, quotations, and general secretarial duties
+`,
     note: '',
   },
   {
     title: 'Chapter Lead',
     org: 'Google Developer Groups on Campus – USC (GDGoc-USC)',
-    date: 'Jan 2026 – present',
+    date: 'Jan 2026 – April 2026',
     logo: 'gdgoc.png',
-    body: "Running USC's developer community. Technical workshops, study jams, getting CS students from theory to practice. Promoted from Data Science Officer in August 2025. We fill in the knowledge gaps that coursework and academia can't normally fill. We prepare our members to be industry-aware and industry-ready",
+    body: "Running USC's developer community. Technical workshops and getting CS students from theory to practice. Promoted from Data Science Officer in August 2025.",
     note: '',
   },
   {
     title: 'AI & Data Lead',
     org: 'DOST START',
-    date: '2025 – present',
+    date: '2025 – April 2026',
     logo: 'dost_start.jpg',
     body: 'Leading the AI and data workstream for DOST START. An organization of science and technology scholars across the Philippines with a shared love of anything related to technology',
     note: '',
@@ -53,11 +55,11 @@ export const projectsData = [
     note: '',
   },
   {
-    title: 'timetabling-algorithms',
-    date: '2025 – present',
-    label: 'Research · University Scheduling',
-    body: `University scheduling is a <span data-tip='Finding a valid solution within strict rules — like fitting professors, rooms, and time slots together with no conflicts'>constraint satisfaction problem</span>. This is a research framework comparing a custom <span data-tip='Try a solution; if it fails, back up and try the next option. Repeat until valid.'>backtracking solver</span> against Google's industrial-grade <span data-tip="Google's industrial-strength optimization engine — built to solve massive constraint problems far faster than a handwritten algorithm could">OR-Tools CP-SAT</span> on real USC course data. When does building your own solver beat using someone else's?`,
-    tags: ['Python', 'OR-Tools', 'Algorithms', 'Research'],
+    title: 'enrollmate',
+    date: '2024 – present',
+    label: 'Personal Tool · Course Scheduler',
+    body: `Enrollment means checking schedule conflicts across dozens of combinations by hand. Enrollmate runs a <span data-tip='An algorithm that systematically tries possibilities, backing up when it hits a dead end, until it finds every valid option'>backtracking search</span> over your courses and returns every conflict-free schedule. Companion <span data-tip='A small add-on installed in your web browser that adds new features or modifies the websites you visit'>browser extension</span> <span data-tip='Automatically reads and extracts data from a website — like copying information by hand, but instantly and at scale'>scrapes</span> course data directly from the university portal — no manual entry.`,
+    tags: ['Next.js', 'Supabase', 'TypeScript', 'Chrome Extension'],
     note: '',
   },
   {
@@ -66,14 +68,6 @@ export const projectsData = [
     label: 'Personal · Agent Design',
     body: `A library of specialized <span data-tip='Software programs that can make decisions and take actions on their own to complete a task — like an intern that executes what you ask, within the limits you set'>AI agents</span>, each scoped to a single job with hard limits. The design principle: agents execute within defined boundaries; humans decide what happens next. No agent talks to another. Built while working with <span data-tip="Anthropic's AI coding assistant — the same tool used to build this site">Claude Code</span>. Contains my philosophy and approach to <span data-tip='Coordinating multiple AI agents to work on complex tasks together — while keeping humans in control of every decision'>AI agent orchestration</span>. Encodes how I actually think about delegation.`,
     tags: ['Claude API', 'Bash', 'Agent Design'],
-    note: '',
-  },
-  {
-    title: 'enrollmate',
-    date: '2024 – present',
-    label: 'Personal Tool · Course Scheduler',
-    body: `Enrollment means checking schedule conflicts across dozens of combinations by hand. Enrollmate runs a <span data-tip='An algorithm that systematically tries possibilities, backing up when it hits a dead end, until it finds every valid option'>backtracking search</span> over your courses and returns every conflict-free schedule. Companion <span data-tip='A small add-on installed in your web browser that adds new features or modifies the websites you visit'>browser extension</span> <span data-tip='Automatically reads and extracts data from a website — like copying information by hand, but instantly and at scale'>scrapes</span> course data directly from the university portal — no manual entry.`,
-    tags: ['Next.js', 'Supabase', 'TypeScript', 'Chrome Extension'],
     note: '',
   },
   {
