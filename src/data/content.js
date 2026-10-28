@@ -39,8 +39,8 @@ export const experienceData = [
 // ── Projects ───────────────────────────────────────────────
 export const featuredProject = {
   title: 'Amazon Listing Analyzer API',
-  date: '2025 – present',
-  label: 'Production · Evo Tech',
+  date: '2025 – 2026',
+  label: 'Production',
   body: `More than a dozen <span data-tip='Individual URLs in an API — like doors into the system, each handling one specific function'>endpoints</span>, AI-powered insights and analysis, <span data-tip='AI that can see and interpret images and video the way a human would — identifying objects, reading text, judging quality'>computer vision</span>, application of software architectural principles, <span data-tip='Databases that store meaning rather than just text — lets you search by concept instead of exact keywords'>vector databases</span>, image, video, and <span data-tip='Retrieval-Augmented Generation: a pipeline where AI searches your documents before generating answers — grounding output in real data'>RAG</span> pipelines`,
   tags: ['FastAPI', 'GPT-4 Vision', 'Qdrant', 'Sora 2', 'Python', 'asyncio'],
 };
@@ -48,7 +48,7 @@ export const featuredProject = {
 export const projectsData = [
   {
     title: 'ai-yeast',
-    date: '2025 – present',
+    date: '2025',
     label: 'Research · LLM Memory System',
     body: `AI models forget everything when a conversation ends. ai-yeast gives them memory that persists, evolves, and decays. Three layers: recent events, distilled facts, core identity. Memories strengthen through use and fade over time. Running on <span data-tip='A 7-billion-parameter open-source language model that runs locally on your own hardware, ensuring data privacy. No internet, no API fees, no data leaving the machine'>Mistral 7B</span> via <span data-tip='Software that lets you run AI models locally on your own machine — no cloud, no internet required, no data sent anywhere'>Ollama</span>. Just a model with persistent memory that knows your ins and outs when it comes to working with it.`,
     tags: ['Mistral 7B', 'RAG', 'Node.js', 'Ollama'],
@@ -56,23 +56,15 @@ export const projectsData = [
   },
   {
     title: 'enrollmate',
-    date: '2024 – present',
+    date: '2024 – 2026',
     label: 'Personal Tool · Course Scheduler',
     body: `Enrollment means checking schedule conflicts across dozens of combinations by hand. Enrollmate runs a <span data-tip='An algorithm that systematically tries possibilities, backing up when it hits a dead end, until it finds every valid option'>backtracking search</span> over your courses and returns every conflict-free schedule. Companion <span data-tip='A small add-on installed in your web browser that adds new features or modifies the websites you visit'>browser extension</span> <span data-tip='Automatically reads and extracts data from a website — like copying information by hand, but instantly and at scale'>scrapes</span> course data directly from the university portal — no manual entry.`,
     tags: ['Next.js', 'Supabase', 'TypeScript', 'Chrome Extension'],
     note: '',
   },
   {
-    title: 'jays-ai-agent-suite',
-    date: '2025 – present',
-    label: 'Personal · Agent Design',
-    body: `A library of specialized <span data-tip='Software programs that can make decisions and take actions on their own to complete a task — like an intern that executes what you ask, within the limits you set'>AI agents</span>, each scoped to a single job with hard limits. The design principle: agents execute within defined boundaries; humans decide what happens next. No agent talks to another. Built while working with <span data-tip="Anthropic's AI coding assistant — the same tool used to build this site">Claude Code</span>. Contains my philosophy and approach to <span data-tip='Coordinating multiple AI agents to work on complex tasks together — while keeping humans in control of every decision'>AI agent orchestration</span>. Encodes how I actually think about delegation.`,
-    tags: ['Claude API', 'Bash', 'Agent Design'],
-    note: '',
-  },
-  {
     title: 'kitchen-management-system',
-    date: '2024',
+    date: '2024 - 2026',
     label: 'Client · Family Business',
     body: `A family food business tracked raw materials, production, and orders on paper. Built a unified system to replace that: inventory, production output, customer orders, <span data-tip='Different users get different permissions based on their role — a manager sees everything, a staff member sees only what they need'>role-based access</span>, Excel/PDF export. Understanding business processes was a real challenge and was the key factor in building something actually usable.`,
     tags: ['Django', 'PostgreSQL', 'Python', 'Tailwind'],
