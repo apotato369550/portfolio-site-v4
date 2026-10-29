@@ -17,20 +17,20 @@ export default function Experience() {
       <h2>Experience</h2>
       {experienceData.map((item, i) => (
         <div key={i} className="exp-entry fade-in">
-          <div className="exp-header">
-            <div className="exp-title-block">
-              {
-                <img src={logoMap[item.logo]} alt={item.org} className="exp-logo" />
-              }
-              <div>
-                <strong className="exp-title">{item.title}</strong>
-                <span className="exp-org">{item.org}</span>
+          <img src={logoMap[item.logo]} alt={item.org} className="exp-logo" />
+          <div className="exp-content">
+            <div className="exp-header">
+              <div className="exp-title-block">
+                <div>
+                  <strong className="exp-title">{item.title}</strong>
+                  <span className="exp-org">{item.org}</span>
+                </div>
               </div>
+              <span className="exp-date">{item.date}</span>
             </div>
-            <span className="exp-date">{item.date}</span>
+            <p className="exp-body" dangerouslySetInnerHTML={{ __html: item.body }} />
+            {item.note && <p className="personal-note">{item.note}</p>}
           </div>
-          <p className="exp-body" dangerouslySetInnerHTML={{ __html: item.body }} />
-          {item.note && <p className="personal-note">{item.note}</p>}
         </div>
       ))}
     </section>
