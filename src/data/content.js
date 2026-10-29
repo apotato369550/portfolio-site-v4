@@ -57,15 +57,17 @@ export const projectsData = [
     note: '', 
   },
   { 
-    title: 'enrollmate', 
+    title: 'enrollmate',
+    href: 'https://enrollmate.dcism.org', 
     date: '2026', 
     label: 'Personal Tool · Course Scheduler', 
-    body: "Enrollment gets messy fast when you have to compare a bunch of course sections by hand. Enrollmate lets you add courses manually or import them from a CSV, then uses a <span data-tip='An algorithm that tries different course combinations and backs up whenever it finds a conflict'>backtracking search</span> to find every schedule that fits your time and enrollment preferences. You can view the results on a weekly grid, save your favorite schedules, and print them later. Everything runs locally in the browser, so there are no accounts or backend. Your data stays in <span data-tip='Browser storage that lets websites save data on your device'>localStorage</span>.", 
+    body: "Enrollment gets messy fast when you have to compare a bunch of course sections by hand. Enrollmate lets you add courses manually or import them from a CSV, then uses a <span data-tip='An algorithm that tries different course combinations and backs up whenever it finds a conflict'>backtracking search</span> to find every schedule that fits your time and enrollment preferences. You can view the results on a weekly grid, save your favorite schedules, and print them later. Everything runs locally in the browser, so there are no accounts or backend. Your data stays in <span data-tip='Browser storage that lets websites save data on your device'>localStorage</span>. Used by hundreds of students at the University of San Carlos to plan their schedules during the enrollment season.", 
     tags: ['JavaScript', 'Vite'], 
     note: '', 
   }, 
   { 
     title: 'cbvt', 
+    href: 'https://cbvt.vercel.app',
     date: '2026', 
     label: 'Client Website · HVAC Services', 
     body: "CBVT is a clean, responsive website for Cebu Best Value Trading Corporation, a Cebu-based <span data-tip='Heating, ventilation, and air conditioning: systems that control temperature and airflow in buildings'>HVAC</span> and motor rewinding company. It highlights their services, including aircon repair, installation, cleaning, ductwork, exhaust systems, and chilled water installation.", 
@@ -193,6 +195,15 @@ export const scholarshipsData = [
 // ── Education ──────────────────────────────────────────────
 export const educationData = [
   {
+    institution: 'Philippine National IT Standards (PhilNITS)',
+    degree: 'Fundamental Information Technology Engineer (FE) Examination Passer',
+    date: '2026',
+    items: [
+      'Passed the PhilNITS Fundamental Information Technology Engineer (FE) Examination',
+      'Part of the Japan-aligned Information Technology Engineers Examination (ITEE) framework',
+    ],
+  },
+  {
     institution: 'University of San Carlos',
     degree: 'BS in Computer Science',
     date: 'Sept 2023 – June 2027 \u00a0·\u00a0 Cebu City',
@@ -209,5 +220,5 @@ export const educationData = [
       'Carolinian Academic Distinction (CAD) — all Grade 11 & 12 semesters',
       'Second Place, USC SHS-STEM 4th Research Congress (May 2023)',
     ],
-  },
+  }
 ];
