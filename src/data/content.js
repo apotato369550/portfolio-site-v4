@@ -79,6 +79,8 @@ export const projectsData = [
 // ── Skills ─────────────────────────────────────────────────
 export const skillsData = [
   {
+    id: 'ai',
+    visual: 'logos',
     title: 'AI Engineering',
     body: `Building AI-powered applications and backend systems using large language models, computer vision, and generative AI. Hands-on experience with <span data-tip='Retrieval-Augmented Generation: lets AI retrieve relevant information before answering'>RAG</span>, vector databases, image and video generation, and designing reliable, scalable AI pipelines.`,
     tags: [
@@ -91,7 +93,10 @@ export const skillsData = [
       'Generative AI',
     ],
   },
+
   {
+    id: 'ml',
+    visual: 'certificates',
     title: 'Machine Learning & Data Science',
     body: `Exploring data, training models, and figuring out what works through hands-on projects and experiments. Completed DataCamp projects covering data analysis, preprocessing, and machine learning, alongside the Associate Data Scientist in Python and Machine Learning Scientist in Python career certifications. Experience with classification, predictive modeling, and evaluating model performance.`,
     tags: [
@@ -105,6 +110,24 @@ export const skillsData = [
     ],
   },
   {
+    id: 'backend',
+    visual: 'logos',
+    title: 'Backend Development & API Design',
+    body: `I enjoy building the stuff that happens behind the scenes. Mostly working with Python and <span data-tip='A modern Python framework for building fast, asynchronous APIs'>FastAPI</span>, designing <span data-tip='APIs that use standard HTTP methods like GET, POST, PUT, and DELETE to communicate between applications'>RESTful APIs</span>, working with databases, and connecting different services together. I've built backends with asynchronous processing, <span data-tip='Controlling how many requests a client can make within a given period'>rate limiting</span>, caching, retries, and error handling. I like figuring out how to make things faster, more reliable, and easier to maintain as they grow.`,
+    tags: [
+      'Python',
+      'FastAPI',
+      'RESTful APIs',
+      'SQL',
+      'Supabase',
+      'API Design',
+    ],
+    icons: [],
+    note: '',
+  },
+  {
+    id: 'cloud',
+    visual: 'aws',
     title: 'Cloud Computing & AWS',
     body: `Getting hands-on with cloud infrastructure through personal projects and AWS training. Experience setting up and managing <span data-tip='Amazon Elastic Compute Cloud: virtual servers hosted on AWS'>EC2 instances</span>, configuring <span data-tip='Static public IP addresses that can be assigned to AWS resources'>Elastic IPs</span>, deploying websites and backend services, and managing cloud resources and costs. Completed AWS Cloud Practitioner Essentials and associate-level learning coursework, with a growing interest in cloud architecture and infrastructure.`,
     tags: [
@@ -117,8 +140,10 @@ export const skillsData = [
     ],
   },
   {
+    id: 'linux',
+    visual: 'logos',
     title: 'Linux, Systems & Homelabbing',
-    body: `I love tinkering with computers, especially when it means getting my hands dirty below the software layer. Running my own <span data-tip='A personal collection of computers, servers, and networking equipment used for experimenting, learning, and self-hosting'>homelab</span>, managing Linux machines, <span data-tip='Running applications and services on your own hardware instead of relying on third-party hosting'>self-hosting</span> services, writing <span data-tip='Shell scripts used to automate tasks and manage Linux systems'>Bash</span> scripts, and playing around with <span data-tip='Packaging applications and their dependencies into portable, isolated environments'>Docker containers</span>. From repurposing old hardware into servers to crimping UTP cables while listening to Lady Gaga, I just really enjoy figuring out how things work (and occasionally breaking them in the process).`,
+    body: `I love tinkering with computers, especially when it means getting my hands dirty below the software layer. Running my own <span data-tip='A personal collection of computers, servers, and networking equipment used for experimenting, learning, and self-hosting'>homelab</span>, managing Linux machines, <span data-tip='Running applications and services on your own hardware instead of relying on third-party hosting'>self-hosting</span> services, writing <span data-tip='Shell scripts used to automate tasks and manage Linux systems'>Bash</span> scripts, and playing around with <span data-tip='Packaging applications and their dependencies into portable, isolated environments'>Docker containers</span>. From repurposing old hardware into Minecraft servers to crimping UTP cables while listening to Lady Gaga, I just really enjoy figuring out how things work (and occasionally breaking them in the process).`,
     tags: [
       'Linux',
       'Bash',
@@ -221,4 +246,10 @@ export const educationData = [
       'Second Place, USC SHS-STEM 4th Research Congress (May 2023)',
     ],
   }
+];
+
+export const skillCertificates = [
+  { title: 'Associate Data Scientist in Python', href: 'https://www.datacamp.com/completed/statement-of-accomplishment/track/b881bd77a6a2b9187a80fb25832b0e7f75ee2f37?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa' },
+  { title: 'Associate Data Analyst in SQL', href: 'https://www.datacamp.com/completed/statement-of-accomplishment/track/3a28589d16420a81b5ee53f7ad8edb0ec1e1df2a?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa' },
+  { title: 'Machine Learning Scientist in Python', href: 'https://www.datacamp.com/completed/statement-of-accomplishment/track/94a3b9dfb0b9b1372ce59d5a126739eab2b781f4?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa' },
 ];
