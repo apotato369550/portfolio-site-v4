@@ -7,8 +7,8 @@ export default function Skills() {
       <div className="skills-grid">
         {skillsData.map((group, i) => (
           <div key={i} className="skill-group fade-in">
-            <h3>{group.label}</h3>
-            <p className="skill-desc" dangerouslySetInnerHTML={{ __html: group.description }} />
+            <h3>{group.title}</h3>
+            <p className="skill-desc" dangerouslySetInnerHTML={{ __html: group.body }} />
             {group.icons && (
               <div className="skill-icons">
                 {group.icons.map((cls, j) => (
@@ -16,7 +16,7 @@ export default function Skills() {
                 ))}
               </div>
             )}
-            <p className="skill-tags">{group.skills}</p>
+            <p className="skill-tags">{group.tags.join(' · ')}</p>
             {group.note && <p className="personal-note">{group.note}</p>}
           </div>
         ))}
