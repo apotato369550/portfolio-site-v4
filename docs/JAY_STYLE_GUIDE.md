@@ -568,23 +568,27 @@ If tabs exist (e.g., skill categories), fade between tabs using `opacity 0.22s e
 - **Submit hover:** Inverted colors (black bg, white text)
 - **Disabled:** Opacity 0.6, cursor not-allowed
 
-### Matrix Rain Background
+### Animated Landscape Background
 
-**Canvas:** Fixed, full-viewport `<canvas>` behind all content (`.matrix-rain`, `z-index: 0`, page content stacked above via `.page { position: relative; z-index: 1 }`), driven by `requestAnimationFrame` outside React's render cycle.
+Fixed full-viewport Canvas 2D landscape behind the content, implemented by
+`LandscapeBackground`. A faint greyscale perspective grid moves toward the viewer
+beneath drifting dots linked by proximity. The horizon sits at mid-viewport;
+connected triangular faces receive a soft, distance-faded grey fill. A central white veil protects readability.
+Random shaded blocks, triangular prisms, and pyramids move from the horizon
+toward the viewer with perspective scaling. A sparse, centrally placed set emerges
+near the horizon and dissolves before reaching the camera rather than passing by.
+Dots use a lighter population of 24–70 depending on viewport width.
+No pointer interaction; existing content colors remain unchanged.
 
-**Values:** Grayscale only — black glyphs, head at `rgba(0,0,0,0.22)` fading linearly to 0 over each drop's own tail length, randomized per drop between `tailLengthMin`–`tailLengthMax` (default 15–30 glyphs). Each drop's trail is tracked explicitly (a per-drop glyph queue) and the canvas is fully cleared to white every frame, so every tail vanishes completely at its own fixed length instead of relying on translucent-overwrite persistence — no residue accumulation. No color. Drop count scales with viewport width (`dropDensityStep`, default ~1.4× font size — denser than earlier passes for more frequent rainfall); each drop's x position, its respawn gap (`gapMinRows`–`gapMaxRows`, default 3–15 rows), and its respawn timing (`resetProbability`, default 0.9) are randomized/tuned independently per drop rather than locked to a grid, so falls read as discrete, irregularly-spaced drops instead of a uniform curtain.
+Animation uses elapsed time, capped pixel density and particle count. It pauses
+in hidden tabs and renders a static scene under reduced-motion preferences.
+The canvas is decorative and ignores pointer events.
 
-**Customization:** `MatrixRain` (`src/components/MatrixRain.jsx`) accepts `tailLengthMin`, `tailLengthMax`, `dropDensityStep`, `gapMinRows`, `gapMaxRows`, and `resetProbability` as props, all with the defaults above — adjust at the call site in `App.jsx` rather than editing the component's internals.
+Top-level content sections fade in together once (500ms, 10px translation), when
+their top enters the bottom 10% of the viewport. Entry-level fades are removed.
+Reduced motion reveals every section immediately. Header and footer remain visible.
+The browser scrollbar is hidden without disabling native scrolling.
 
-**Accessibility:** Disabled entirely when `prefers-reduced-motion: reduce` is set.
-
-**Philosophy:** This is the one deliberate exception to "no background images/animation" in this guide. It's kept subordinate to content by design — opacity is tuned so it reads as faint texture, never competes with text legibility, and never introduces color (respecting the one-subtle-accent budget). Treat any further adjustment to its intensity as a design decision requiring the same restraint as the rest of this system, not a default to escalate.
-
----
-
-## Voice & Tone
-
-The text on the site is calibrated to read as all three audiences simultaneously:
 
 ### Gen Z / Peers
 Dry humor, self-aware, unpretentious. Smart but doesn't perform it. Chill.
