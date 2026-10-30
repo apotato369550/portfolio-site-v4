@@ -8,8 +8,7 @@ export default function Header() {
       </div>
       <div className="header-content">
         <h1>John Andre Yap</h1>
-        <p className="header-roles">AI Engineer · Software Engineer · Systems Architect</p>
-        <p className="tagline">Builder of resilient systems.</p>
+        <p className="header-roles">Software Engineer · Systems Architect</p>
         <div className="contact">
           <span>Cebu City, Philippines</span>
           <span className="dot">·</span>

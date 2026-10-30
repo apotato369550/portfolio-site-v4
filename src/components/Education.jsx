@@ -7,11 +7,12 @@ export default function Education() {
     <section id="education">
       <h2>Education</h2>
       {educationData.map((entry, i) => (
-        <div key={i} className="entry fade-in">
+        <div key={i} className="education-milestone">
+          <div className="education-milestone-card">
           <div className="entry-top">
             <div className="education-entry-top">
-              <img src={entry.institution.includes('PhilNITS') ? philnitsLogo : uscLogo} alt={entry.institution} className={`edu-logo${entry.institution.includes('PhilNITS') ? ' edu-logo--philnits' : ''}`} />
-              <div><strong className="entry-title">{entry.institution}</strong><em className="entry-sub">{entry.degree}</em></div>
+              <div className="education-logo-tile"><img src={entry.institution.includes('PhilNITS') ? philnitsLogo : uscLogo} alt={entry.institution} className={`edu-logo${entry.institution.includes('PhilNITS') ? ' edu-logo--philnits' : ''}`} /></div>
+              <div className="education-heading"><h3>{entry.degree}</h3><span className="entry-sub">{entry.institution}</span></div>
             </div>
             <span className="card-date">{entry.date}</span>
           </div>
@@ -20,6 +21,7 @@ export default function Education() {
               <li key={j} dangerouslySetInnerHTML={{ __html: item }} />
             ))}
           </ul>
+          </div>
         </div>
       ))}
     </section>

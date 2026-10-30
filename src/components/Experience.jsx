@@ -16,8 +16,8 @@ export default function Experience() {
     <section id="experience">
       <h2>Experience</h2>
       {experienceData.map((item, i) => (
-        <div key={i} className="exp-entry fade-in">
-          <img src={logoMap[item.logo]} alt={item.org} className="exp-logo" />
+        <div key={i} className="exp-entry">
+          <div className={`exp-logo-tile${['evotech.jpeg', 'cbvt'].includes(item.logo) ? ' exp-logo-tile--inset' : ''}`}><img src={logoMap[item.logo]} alt={item.org} className="exp-logo" /></div>
           <div className="exp-content">
             <div className="exp-header">
               <div className="exp-title-block">

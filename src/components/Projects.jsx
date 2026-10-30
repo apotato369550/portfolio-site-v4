@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="project-grid">
         {allProjects.map((project, i) => {
           return (
-            <div key={i} className="project-entry fade-in">
+            <div key={i} className="project-entry">
               <div className={`project-inner${i % 2 !== 0 ? ' project-inner--reverse' : ''}`}>
                 <div className="project-inner-body">
                   <div className="project-header">

@@ -19,12 +19,15 @@ export default function Affiliations() {
       <h2>Affiliations</h2>
       <div className="affiliations-grid">
         {affiliationsData.map((item, i) => (
-          <div key={i} className="affil-entry fade-in">
-            <img src={logoMap[item.logo]} alt={item.org} className="affil-logo" />
+          <div key={i} className="affil-entry">
+            <div className="affil-card">
+            <div className="affil-logo-tile"><img src={logoMap[item.logo]} alt={item.org} className="affil-logo" /></div>
             <div className="affil-body">
               <strong className="affil-role">{item.role}</strong>
-              <span className="affil-org">{item.org} · {item.date}</span>
+              <span className="affil-org">{item.org}</span>
               {item.note && <p className="personal-note">{item.note}</p>}
+              <span className="affil-date">{item.date}</span>
+            </div>
             </div>
           </div>
         ))}

@@ -7,7 +7,7 @@ export default function Skills() {
       <h2>Skills</h2>
       <div className="skills-grid">
         {skillsData.map((group, index) => (
-          <div key={group.id} className={`skill-group fade-in${index % 2 ? ' skill-group--reverse' : ''}`}>
+          <div key={group.id} className={`skill-group${index % 2 ? ' skill-group--reverse' : ''}`}>
             <div className="skill-content">
             <h3>{group.title}</h3>
             <p className="skill-desc" dangerouslySetInnerHTML={{ __html: group.body }} />

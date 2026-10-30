@@ -135,7 +135,7 @@ export default function Contact() {
 
   if (status === 'success') {
     return (
-      <section className="fade-in visible">
+      <section >
         <h2>Contact</h2>
         <div className="card">
           <div className="card-body">
@@ -147,7 +147,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="fade-in visible">
+    <section >
       <h2>Contact</h2>
 
       {throttleMessage && (
