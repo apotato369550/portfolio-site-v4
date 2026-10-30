@@ -204,7 +204,10 @@ export const scholarshipsData = [
     org: 'Department of Science and Technology',
     date: 'Jan 2024 – present',
     logo: 'dost_sei.png',
-    body: 'Awarded on merit by the national government science agency. Covers partial tuition for the BS Computer Science program at the University of San Carlos.',
+    recognition: '',
+    body: 'Awarded on merit by the Department of Science and Technology, recognizing academic achievement through its scholarship program.',
+    detailsTitle: 'Academic support',
+    details: ['Tuition support and allowance.', 'BS Computer Science, University of San Carlos.'],
     note: '',
   },
   {
@@ -212,7 +215,10 @@ export const scholarshipsData = [
     org: 'DataCamp',
     date: 'Jan 2025 – present',
     logo: 'datacamp.jpg',
-    body: 'Competitive scholarship granting full access to the DataCamp professional track: data science, machine learning, and engineering courses.',
+    recognition: '',
+    body: 'Selected for a scholarship providing full access to DataCamp’s professional learning tracks.',
+    detailsTitle: 'Learning opportunities',
+    details: ['Data science, machine learning, and engineering coursework.', 'Hands-on projects in data analysis, preprocessing, and machine learning.'],
     note: '',
   },
 ];
