@@ -6,6 +6,37 @@ import python from '../assets/python.svg';
 import openai from '../assets/openai.svg';
 
 export default function ProjectVisual({ title }) {
+  if (title === 'Customer Churn Analysis') return (
+    <div className="project-visual visual-churn">
+      <svg className="analysis-art" viewBox="0 0 360 230" role="img" aria-label="Conceptual classification grid highlighting missed churn cases, not measured counts">
+        <text x="15" y="133" textAnchor="middle" transform="rotate(-90 15 133)">ACTUAL</text>
+        <text x="204" y="20" textAnchor="middle">PREDICTED</text>
+        <text x="147" y="43" textAnchor="middle">Stay</text><text x="261" y="43" textAnchor="middle">Leave</text>
+        <text x="58" y="100" textAnchor="end">Stay</text><text x="58" y="181" textAnchor="end">Leave</text>
+        <rect x="77" y="55" width="130" height="72" rx="10" fill="#b8d8d6" />
+        <rect x="215" y="55" width="130" height="72" rx="10" fill="#e0e8ee" />
+        <rect x="77" y="135" width="130" height="72" rx="10" fill="#f4b497" />
+        <rect x="215" y="135" width="130" height="72" rx="10" fill="#e0e8ee" />
+        {[0, 1, 2].map(row => Array.from({ length: 7 }, (_, col) => <circle key={`${row}-${col}`} cx={96 + col * 15} cy={73 + row * 18} r="4" fill="#326568" />))}
+        <path d="m132 160 18 18m0-18-18 18" stroke="#833e2d" strokeWidth="3" strokeLinecap="round" />
+        <text x="280" y="178" textAnchor="middle">?</text>
+        <path d="M142 210v12h70" fill="none" stroke="#833e2d" />
+        <text x="220" y="226">Missed churn</text>
+      </svg>
+    </div>
+  );
+  if (title === 'Hypothesis Testing in Healthcare') return (
+    <div className="project-visual visual-healthcare">
+      <svg className="analysis-art" viewBox="18 35 324 195" role="img" aria-label="Conceptual overlapping treatment and placebo distributions, not actual study results">
+        <g stroke="#d2dfdd" strokeWidth="1"><path d="M28 55h304M28 95h304M28 135h304M28 175h304" /></g>
+        <path d="M28 185C65 185 71 164 96 112S132 48 151 48s38 28 58 77 31 60 123 60" fill="#518b8940" stroke="#397775" strokeWidth="3" />
+        <path d="M28 185c74 0 76-25 103-75s37-55 55-55 38 30 57 75 39 55 89 55" fill="#a392c440" stroke="#8772a7" strokeWidth="3" strokeDasharray="6 5" />
+        <path d="M28 195h304" stroke="#65817e" />
+        <text x="28" y="219">Treatment</text><path d="M108 215h30" stroke="#397775" strokeWidth="3" />
+        <text x="214" y="219">Placebo</text><path d="M281 215h30" stroke="#8772a7" strokeWidth="3" strokeDasharray="6 5" />
+      </svg>
+    </div>
+  );
   if (title === 'AI Analysis & Generation API') return <div className="project-visual visual-ai"><div className="ai-marks"><div><img src={python} alt="Python" /></div><span className="visual-plus">+</span><div><img src={openai} alt="OpenAI" /></div></div></div>;
   if (title === 'arkad') return <div className="project-visual visual-arkad"><img className="arkad-wordmark" src={arkad} alt="Arkad" /><div className="brand-phone"><div className="phone-speaker" /><img src={arkadIcon} alt="Arkad app icon" /></div></div>;
   if (title === 'enrollmate') return <div className="project-visual visual-enrollmate"><span className="project-wordmark project-wordmark--enrollmate">ENROLLMATE</span><div className="schedule-motif" aria-hidden="true">{Array.from({length:15},(_,i)=><span key={i} />)}</div><div className="brand-monitor"><div className="monitor-screen"><img src={enrollmate} alt="Enrollmate logo" /></div><div className="monitor-stand" /></div></div>;

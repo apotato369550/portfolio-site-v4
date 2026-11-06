@@ -58,7 +58,7 @@ export const projectsData = [
   },
   { 
     title: 'enrollmate',
-    href: 'https://enrollmate.dcism.org', 
+    href: 'https://enrollmate-theta.vercel.app/', 
     date: '2026', 
     label: 'Personal Tool · Course Scheduler', 
     body: "Enrollment gets messy fast when you have to compare a bunch of course sections by hand. Enrollmate lets you add courses manually or import them from a CSV, then uses a <span data-tip='An algorithm that tries different course combinations and backs up whenever it finds a conflict'>backtracking search</span> to find every schedule that fits your time and enrollment preferences. You can view the results on a weekly grid, save your favorite schedules, and print them later. Everything runs locally in the browser, so there are no accounts or backend. Your data stays in <span data-tip='Browser storage that lets websites save data on your device'>localStorage</span>. Used by hundreds of students at the University of San Carlos to plan their schedules during the enrollment season.", 
@@ -73,7 +73,25 @@ export const projectsData = [
     body: "CBVT is a clean, responsive website for Cebu Best Value Trading Corporation, a Cebu-based <span data-tip='Heating, ventilation, and air conditioning: systems that control temperature and airflow in buildings'>HVAC</span> and motor rewinding company. It highlights their services, including aircon repair, installation, cleaning, ductwork, exhaust systems, and chilled water installation.", 
     tags: ['React', 'TypeScript', 'Tailwind CSS'], 
     note: '', 
-  }
+  },
+  {
+    title: 'Customer Churn Analysis',
+    href: 'https://www.datacamp.com/completed/statement-of-accomplishment/project/b6d6ecc3-0e17-472e-9323-aface52a315e?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa',
+    date: '',
+    label: 'Machine Learning',
+    body: "Explored customer churn using telecom demographic and usage data. Combined two datasets, prepared categorical features, and compared logistic regression with a random forest using <span data-tip='A table showing correct predictions, false alarms, and missed cases'>confusion matrices</span>, precision, and recall. The saved results highlight an important limitation: the random forest achieved roughly 79% accuracy but identified none of the customers who churned, illustrating why accuracy alone can be misleading.",
+    tags: ['Python', 'Pandas', 'Scikit-learn', 'Classification', 'Model Evaluation'],
+    note: 'Completed as DataCamp coursework.',
+},
+{
+    title: 'Hypothesis Testing in Healthcare',
+    href: 'https://www.datacamp.com/completed/statement-of-accomplishment/project/1bbf6a99-3d6d-4cc3-9a7a-c1c1959d9edc?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa',
+    date: '',
+    label: 'Statistical Analysis',
+    body: "Analyzed a supplied drug-safety dataset to explore differences between treatment and placebo groups. Implemented a <span data-tip='A statistical test comparing the proportions of an outcome in two groups'>two-proportion z-test</span> for adverse-effect rates, a chi-square test for the association between treatment and adverse-effect counts, and a Mann–Whitney U test to compare age distributions. The analysis did not find statistically significant differences in these tests; interpreting those results requires further checking of assumptions, particularly whether weekly observations are independent.",
+    tags: ['Python', 'Pandas', 'SciPy', 'Pingouin', 'Hypothesis Testing'],
+    note: 'Completed as DataCamp coursework using a modified educational dataset',
+  },
 ];
 
 // ── Skills ─────────────────────────────────────────────────

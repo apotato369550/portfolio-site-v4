@@ -1071,3 +1071,13 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
   html { scroll-behavior: auto; }
   .fade-in { opacity: 1; transform: none; transition: none; }
 }
+
+/* Educational project illustrations; conceptual, not fabricated data plots. */
+.visual-churn { background: #edf1f7; color: #293f58; border: 1px solid #d9e2ed; }
+.visual-healthcare { background: #edf4f1; color: #305953; border: 1px solid #d5e4de; }
+.analysis-art-heading { width: 100%; display: grid; gap: 10px; }
+.analysis-art-heading > span, .analysis-art-caption { font: 10px/1.5 'Space Mono', monospace; letter-spacing: .1em; }
+.project-visual.visual-churn, .project-visual.visual-healthcare { padding: 20px 14px; gap: 14px; }
+.analysis-art { width: 100%; max-width: none; height: auto; overflow: visible; }
+.analysis-art text { fill: currentColor; font: 11px 'Space Mono', monospace; }
+.analysis-art-caption { align-self: flex-start; letter-spacing: .06em; }

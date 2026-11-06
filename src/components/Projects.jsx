@@ -15,7 +15,7 @@ export default function Projects() {
                 <div className="project-inner-body">
                   <div className="project-header">
                     <strong className="project-title">{project.href ? <a href={project.href}>{project.title}</a> : project.title}</strong>
-                    <span className="project-meta">{project.label} · {project.date}</span>
+                    <span className="project-meta">{[project.label, project.date].filter(Boolean).join(' · ')}</span>
                   </div>
                   <p className="project-body" dangerouslySetInnerHTML={{ __html: project.body }} />
                   <div className="project-tags">
