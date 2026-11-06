@@ -44,4 +44,12 @@ jobs:
         run: vercel build --prod --token="$VERCEL_TOKEN"
 
       - name: Deploy to production
-        run: vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+        id: deploy
+        run: |
+          deployment_url=$(vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN")
+          echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
+
+      - name: Alias production deployment
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.url }}
+        run: vercel alias set "$DEPLOYMENT_URL" jay-ruddy.vercel.app --scope="$VERCEL_ORG_ID" --token="$VERCEL_TOKEN"
